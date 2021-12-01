@@ -11,12 +11,12 @@ import { createMockServiceDto } from '../../../../../../../testUtil/mockData/ser
 import { createMockStaff } from '../../../../../../../testUtil/mockData/staff';
 import { BookingModal } from '../BookingModal';
 
-jest.mock('../../../../../../../../network/restApi', () => ({
+jest.mock('../../../../../../../network/restApi', () => ({
   bookAppointment: jest.fn().mockImplementation(() => null),
 }));
 
 describe('BookingModal.tsx', () => {
-  const restApi = require('../../../../../../../../network/restApi');
+  const restApi = require('../../../../../../../network/restApi');
 
   const mockCustomer = createMockCustomer({
     firstName: 'John',

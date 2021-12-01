@@ -24,7 +24,9 @@ export function ServiceTabs() {
       value={false}
       TabIndicatorProps={{ style: { backgroundColor: 'transparent' } }}
       onChange={(_event, newValue) => {
-        serviceTypeRefs[newValue].current.scrollIntoView({ behavior: 'smooth' });
+        serviceTypeRefs[newValue].current.scrollIntoView({
+          behavior: 'smooth',
+        });
         setTabIndex(newValue);
       }}
       variant="scrollable"
@@ -38,7 +40,9 @@ export function ServiceTabs() {
           label={
             <Chip
               label={serviceType.name}
-              classes={{ root: i === tabIndex ? classes.selectedTabChip : classes.tabChip }}
+              classes={{
+                root: i === tabIndex ? classes.selectedTabChip : classes.tabChip,
+              }}
               clickable
             />
           }

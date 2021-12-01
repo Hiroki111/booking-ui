@@ -23,7 +23,9 @@ describe('AvailableTime.tsx', () => {
 
   it('should render timeslots', () => {
     const contextValue = createMockHomePageContextValue({
-      selectedDate: createMockAvailableDate({ availableTimeSlots: mockAvailableTimeSlots }),
+      selectedDate: createMockAvailableDate({
+        availableTimeSlots: mockAvailableTimeSlots,
+      }),
     });
 
     renderAvailableTime(contextValue);

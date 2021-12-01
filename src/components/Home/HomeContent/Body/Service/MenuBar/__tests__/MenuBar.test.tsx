@@ -6,12 +6,12 @@ import { HomePageContext } from '../../../../../../../contexts/HomePageContext';
 import { createMockHomePageContextValue } from '../../../../../../../testUtil/mockData/HomePageContext';
 import { createMockServiceTypeDto } from '../../../../../../../testUtil/mockData/serviceType';
 
-jest.mock('../../../../../../../../network/restApi', () => ({
+jest.mock('../../../../../../../network/restApi', () => ({
   fetchServiceTypes: jest.fn(),
 }));
 
 describe('MenuBar.tsx', () => {
-  const restApi = require('../../../../../../../../network/restApi');
+  const restApi = require('../../../../../../../network/restApi');
   const mockServiceTypes = [
     createMockServiceTypeDto({ id: 1, name: 'Featured' }),
     createMockServiceTypeDto({ id: 2, name: 'Hands and Feet' }),

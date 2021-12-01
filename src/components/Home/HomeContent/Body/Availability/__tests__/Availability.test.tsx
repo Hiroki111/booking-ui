@@ -7,7 +7,7 @@ import { createMockHomePageContextValue } from '../../../../../../testUtil/mockD
 import { AvailableDate } from '../../../../../../interfaces/staff';
 import { createMockAvailableDate } from '../../../../../../testUtil/mockData/availableDate';
 
-jest.mock('../../../../../../../services/routing', () => ({
+jest.mock('../../../../../../services/routing', () => ({
   getPathToSkippedPage: jest.fn().mockImplementation(() => null),
 }));
 
@@ -26,11 +26,15 @@ describe('Availability.tsx', () => {
     const mockedScrollIntoView = jest.fn();
     window.HTMLElement.prototype.scrollIntoView = mockedScrollIntoView;
 
-    let contextValue = createMockHomePageContextValue({ selectedDate: {} as AvailableDate });
+    let contextValue = createMockHomePageContextValue({
+      selectedDate: {} as AvailableDate,
+    });
     renderAvailability(contextValue);
     expect(mockedScrollIntoView).not.toBeCalled();
 
-    contextValue = createMockHomePageContextValue({ selectedDate: createMockAvailableDate() });
+    contextValue = createMockHomePageContextValue({
+      selectedDate: createMockAvailableDate(),
+    });
     renderAvailability(contextValue);
     expect(mockedScrollIntoView).toBeCalled();
   });

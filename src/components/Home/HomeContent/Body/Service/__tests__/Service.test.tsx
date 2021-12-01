@@ -8,15 +8,17 @@ import { createMockServiceDto } from '../../../../../../testUtil/mockData/servic
 import { createMockServiceTypeDto } from '../../../../../../testUtil/mockData/serviceType';
 import { createMockStaff } from '../../../../../../testUtil/mockData/staff';
 
-jest.mock('../../../../../../../network/restApi', () => ({
+jest.mock('../../../../../../network/restApi', () => ({
   fetchServiceTypes: jest.fn(),
   fetchStaffList: jest.fn(),
 }));
 
-jest.mock('../../../../../../../staticData/service', () => ({ MAX_SERVICE_SELECTION_NUMBER: 3 }));
+jest.mock('../../../../../../staticData/service', () => ({
+  MAX_SERVICE_SELECTION_NUMBER: 3,
+}));
 
 describe('Service.tsx', () => {
-  const restApi = require('../../../../../../../network/restApi');
+  const restApi = require('../../../../../../network/restApi');
   const mockServiceTypes = [
     createMockServiceTypeDto({ id: 1, name: 'Featured' }),
     createMockServiceTypeDto({ id: 2, name: 'Hands and Feet' }),

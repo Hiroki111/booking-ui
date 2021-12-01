@@ -33,8 +33,9 @@ export function Order() {
         )}
         {selectedDate.date && selectedTimeSlot.startTime && (
           <Paper elevation={2} className={classes.selectedTimeSlotContainer} square>
-            <p>{`${dayjs(selectedDate.date).format('D MMM YYYY')} at ${selectedTimeSlot.startTime
-              } - ${calculateExpectedEndTime(selectedTimeSlot.startTime, selectedServices)}`}</p>
+            <p>{`${dayjs(selectedDate.date).format('D MMM YYYY')} at ${
+              selectedTimeSlot.startTime
+            } - ${calculateExpectedEndTime(selectedTimeSlot.startTime, selectedServices)}`}</p>
           </Paper>
         )}
         <Paper elevation={2} className={classes.orderSummary} square>

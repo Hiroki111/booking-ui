@@ -19,7 +19,9 @@ describe('StaffPanel.tsx', () => {
   }
 
   it('should show staff details with a photo', () => {
-    const props = { staff: createMockStaff({ profilePhotoUrl: 'https://example.com' }) };
+    const props = {
+      staff: createMockStaff({ profilePhotoUrl: 'https://example.com' }),
+    };
     renderServicePanel(props, createMockHomePageContextValue());
 
     expect(screen.getByTestId('staff-photo')).toBeInTheDocument();

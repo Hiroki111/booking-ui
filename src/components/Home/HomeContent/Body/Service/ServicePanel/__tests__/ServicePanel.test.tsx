@@ -37,7 +37,9 @@ describe('ServicePanel.tsx', () => {
     const mockSetSelectedServices = jest.fn();
     renderServicePanel(
       { isStaffAvailable: true, canAddMoreService: true },
-      createMockHomePageContextValue({ setSelectedServices: mockSetSelectedServices }),
+      createMockHomePageContextValue({
+        setSelectedServices: mockSetSelectedServices,
+      }),
     );
 
     const checkbox = screen.getByTestId('service-check-box');
@@ -49,7 +51,9 @@ describe('ServicePanel.tsx', () => {
     const mockSetSelectedServices = jest.fn();
     renderServicePanel(
       { isSelected: false, isStaffAvailable: false },
-      createMockHomePageContextValue({ setSelectedServices: mockSetSelectedServices }),
+      createMockHomePageContextValue({
+        setSelectedServices: mockSetSelectedServices,
+      }),
     );
 
     const checkbox = screen.getByTestId('service-check-box');
@@ -61,7 +65,9 @@ describe('ServicePanel.tsx', () => {
     const mockSetSelectedServices = jest.fn();
     renderServicePanel(
       { isSelected: false, canAddMoreService: false },
-      createMockHomePageContextValue({ setSelectedServices: mockSetSelectedServices }),
+      createMockHomePageContextValue({
+        setSelectedServices: mockSetSelectedServices,
+      }),
     );
 
     const checkbox = screen.getByTestId('service-check-box');

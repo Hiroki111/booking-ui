@@ -10,12 +10,31 @@ import { Order } from '../Order';
 
 describe('Order', () => {
   const mockServices = [
-    createMockServiceDto({ id: 1, name: 'mock service', minutes: 10, price: 20, tax: 2.5 }),
-    createMockServiceDto({ id: 2, name: 'another mock service', minutes: 15, price: 25, tax: 1.0 }),
+    createMockServiceDto({
+      id: 1,
+      name: 'mock service',
+      minutes: 10,
+      price: 20,
+      tax: 2.5,
+    }),
+    createMockServiceDto({
+      id: 2,
+      name: 'another mock service',
+      minutes: 15,
+      price: 25,
+      tax: 1.0,
+    }),
   ];
   const mockTimeslot = createMockAvailableTimeslot('10:00', '10:30');
-  const mockDate = createMockAvailableDate({ date: '2021-12-31', availableTimeSlots: [mockTimeslot] });
-  const mockStaff = createMockStaff({ name: 'John Doe', services: mockServices, availableDates: [mockDate] });
+  const mockDate = createMockAvailableDate({
+    date: '2021-12-31',
+    availableTimeSlots: [mockTimeslot],
+  });
+  const mockStaff = createMockStaff({
+    name: 'John Doe',
+    services: mockServices,
+    availableDates: [mockDate],
+  });
 
   function renderOrder(contextValue: HomePageContextInterface) {
     render(
@@ -32,7 +51,9 @@ describe('Order', () => {
   });
 
   it('shows services that have been selected', () => {
-    const contextValue = createMockHomePageContextValue({ selectedServices: mockServices });
+    const contextValue = createMockHomePageContextValue({
+      selectedServices: mockServices,
+    });
     renderOrder(contextValue);
 
     expect(screen.queryByText('No services selected yet')).toBeNull();
@@ -47,7 +68,9 @@ describe('Order', () => {
   });
 
   it("shows the selected staff's name", () => {
-    const contextValue = createMockHomePageContextValue({ selectedStaff: mockStaff });
+    const contextValue = createMockHomePageContextValue({
+      selectedStaff: mockStaff,
+    });
     renderOrder(contextValue);
 
     expect(screen.getByText('Staff: John Doe')).toBeInTheDocument();
@@ -65,7 +88,9 @@ describe('Order', () => {
   });
 
   it('shows the prices', () => {
-    const contextValue = createMockHomePageContextValue({ selectedServices: mockServices });
+    const contextValue = createMockHomePageContextValue({
+      selectedServices: mockServices,
+    });
     renderOrder(contextValue);
 
     expect(screen.getByTestId('tax')).toHaveTextContent('€ 3.5');

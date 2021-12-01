@@ -55,7 +55,10 @@ describe('Header.tsx', () => {
     cleanup();
 
     const contextValue = createMockHomePageContextValue({
-      selectedStaff: { ...mockHomePageContextValue.selectedStaff, name: 'John Smith' },
+      selectedStaff: {
+        ...mockHomePageContextValue.selectedStaff,
+        name: 'John Smith',
+      },
     });
     renderHeader([ROUTES.availability], contextValue);
     expect(screen.getByText('Select time with John Smith')).toBeInTheDocument();

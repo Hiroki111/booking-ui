@@ -11,7 +11,9 @@ interface Props {
 
 export function SecurityCheck({ handleChangeCaptchaResponse, captchaResonse }: Props) {
   const classes = useStyles();
-  const fetchCaptchaQuery = useCaptchaQuery({ refetchOnWindowFocus: false } as UseQueryOptions);
+  const fetchCaptchaQuery = useCaptchaQuery({
+    refetchOnWindowFocus: false,
+  } as UseQueryOptions);
   const captchaChallenge = fetchCaptchaQuery.data || '';
 
   return (

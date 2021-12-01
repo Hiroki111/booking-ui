@@ -12,7 +12,10 @@ import { createMockServiceTypeDto } from '../../../../../../../testUtil/mockData
 describe('ServiceType.tsx', () => {
   const mockServiceA = createMockServiceDto({ name: 'Service 1' });
   const mockServiceB = createMockServiceDto({ name: 'Service 2' });
-  const mockServiceType = createMockServiceTypeDto({ name: 'Featured', services: [mockServiceA, mockServiceB] });
+  const mockServiceType = createMockServiceTypeDto({
+    name: 'Featured',
+    services: [mockServiceA, mockServiceB],
+  });
   const props = {
     serviceTypeRef: { current: null } as React.RefObject<any>,
     serviceType: mockServiceType as ServiceTypeDto,

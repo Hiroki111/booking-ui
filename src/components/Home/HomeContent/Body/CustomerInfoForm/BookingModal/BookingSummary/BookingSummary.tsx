@@ -59,8 +59,9 @@ export function BookingSummary() {
           <div className={classes.sectionName}>Date</div>
         </Grid>
         <Grid item {...rightGridBreakPoints}>
-          <p>{`${dayjs(selectedDate.date).format('D MMM YYYY')} at ${selectedTimeSlot.startTime
-            } - ${calculateExpectedEndTime(selectedTimeSlot.startTime, selectedServices)}`}</p>
+          <p>{`${dayjs(selectedDate.date).format('D MMM YYYY')} at ${
+            selectedTimeSlot.startTime
+          } - ${calculateExpectedEndTime(selectedTimeSlot.startTime, selectedServices)}`}</p>
         </Grid>
       </Grid>
       <Grid container className={classes.contentRow}>

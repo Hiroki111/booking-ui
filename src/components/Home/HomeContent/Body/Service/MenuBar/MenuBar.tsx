@@ -47,7 +47,9 @@ export function MenuBar() {
           ScrollButtonComponent={renderScrollButton}
           variant="scrollable"
           onChange={(_event, newValue) => {
-            serviceTypeRefs[newValue].current.scrollIntoView({ behavior: 'smooth' });
+            serviceTypeRefs[newValue].current.scrollIntoView({
+              behavior: 'smooth',
+            });
             setSelectedMenuIndex(newValue);
           }}
         >
