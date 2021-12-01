@@ -178,6 +178,8 @@ export const mockStaffLinst = [
     id: 1,
     name: 'Cooper Adcock',
     title: 'Senior Colorist',
+    profilePhotoUrl:
+      'https://res.cloudinary.com/practicaldev/image/fetch/s--H4p1KR_4--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/418876/293e9eaa-92fc-44d3-9705-67f74f20608d.jpeg',
     services: [
       {
         id: 2,
