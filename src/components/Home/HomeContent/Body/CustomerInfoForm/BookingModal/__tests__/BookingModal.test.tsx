@@ -55,7 +55,7 @@ describe('BookingModal.tsx', () => {
               selectedTimeSlot: mockSelectedTimeslot,
             }}
           >
-            <BookingModal isOpen={true} handleClose={() => { }} />
+            <BookingModal isOpen={true} handleClose={() => {}} />
           </HomePageContext.Provider>
         </QueryClientProvider>
       </MemoryRouter>,
