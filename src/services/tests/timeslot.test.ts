@@ -2,7 +2,7 @@ import { AvailableTimeSlotDto } from '../../interfaces/availableTimeSlot';
 import { ServiceDto } from '../../interfaces/service';
 import { filterTimeslotsWithServices } from '../timeslot';
 
-describe('client/services/timeslot', () => {
+describe('services/timeslot', () => {
   describe('filterTimeslotsWithServices', () => {
     const timeslots = [
       { startTime: '14:00', endTime: '14:30' },

@@ -1,17 +1,19 @@
 import Avatar from '@material-ui/core/Avatar';
 import Paper from '@material-ui/core/Paper';
+import PeopleIcon from '@material-ui/icons/People';
 import clsx from 'clsx';
 import { useState } from 'react';
 import { Redirect, useHistory, useLocation } from 'react-router-dom';
 
-import { StaffDto } from '../../../../../../interfaces/staff';
+import { StaffDto, NoPreferenceStaff } from '../../../../../../interfaces/staff';
 import { useHomePageContext } from '../../../../../../contexts/HomePageContext';
 import { ROUTES } from '../../../../../../routes';
 import { getPathToSkippedPage } from '../../../../../../services/routing';
 import { useStyles } from './useStyles';
+import { NO_PREFERENCE_STAFF } from '../../../../../../staticData/staff';
 
 export interface Props {
-  staff: StaffDto;
+  staff: StaffDto | NoPreferenceStaff;
 }
 
 export function StaffPanel({ staff }: Props) {
@@ -40,6 +42,14 @@ export function StaffPanel({ staff }: Props) {
   }
 
   function displayAvatar(staff: StaffDto) {
+    if (staff.id === NO_PREFERENCE_STAFF.id) {
+      return (
+        <Avatar data-testid="no-preference-staff-avatar" className={classes.avatar}>
+          <PeopleIcon />
+        </Avatar>
+      );
+    }
+
     const nameArray = staff.name.trim().split(' ');
     let initials: string;
     if (nameArray.length === 0) {
@@ -66,7 +76,11 @@ export function StaffPanel({ staff }: Props) {
   return (
     <Paper key={staff.id} elevation={2} square onClick={handleOnClick} className={classes.root}>
       <div className={classes.staff}>
-        <div>{!!staff.profilePhotoUrl && !isImageInvalid ? displayPhoto(staff) : displayAvatar(staff)}</div>
+        <div>
+          {!!staff.profilePhotoUrl && !isImageInvalid
+            ? displayPhoto(staff as StaffDto)
+            : displayAvatar(staff as StaffDto)}
+        </div>
         <div className={classes.staffNameAndServices}>
           <div>
             <p className={classes.staffName}>{staff.name}</p>

@@ -93,7 +93,7 @@ export function Header() {
           </Typography>
         )}
         <Typography component="h2" variant="h6" className={classes.pageTitle} noWrap>
-          {displayHeaderText(selectedStaff)}
+          {displayHeaderText(selectedStaff as StaffDto)}
         </Typography>
       </Toolbar>
       {isSmallWindow && isServicePage() && <ServiceTabs />}

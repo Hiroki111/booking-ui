@@ -6,6 +6,7 @@ import { StaffPanel } from '..';
 import { HomePageContextInterface, HomePageContext } from '../../../../../../../contexts/HomePageContext';
 import { createMockHomePageContextValue } from '../../../../../../../testUtil/mockData/HomePageContext';
 import { createMockStaff } from '../../../../../../../testUtil/mockData/staff';
+import { NO_PREFERENCE_STAFF } from '../../../../../../../staticData/staff';
 
 describe('StaffPanel.tsx', () => {
   function renderServicePanel(props: Props, contextValue: HomePageContextInterface) {
@@ -52,5 +53,13 @@ describe('StaffPanel.tsx', () => {
     expect(screen.queryByTestId('staff-photo')).toBeNull();
     expect(screen.getByTestId('staff-avatar')).toHaveTextContent('');
     cleanup();
+  });
+
+  it('should show the No preference avatar', () => {
+    const props = { staff: NO_PREFERENCE_STAFF };
+    renderServicePanel(props, createMockHomePageContextValue());
+
+    expect(screen.queryByTestId('staff-photo')).toBeNull();
+    expect(screen.getByTestId('no-preference-staff-avatar')).toBeInTheDocument();
   });
 });
