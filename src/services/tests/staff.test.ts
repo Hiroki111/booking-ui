@@ -18,7 +18,6 @@ describe('services/staff', () => {
       const staffWithMaxAvailability = getNoPreferenceStaffWithMaxAvailability([staffA, staffB]);
 
       expect(staffWithMaxAvailability.id).toEqual(-1);
-      expect(staffWithMaxAvailability.services).toEqual([]);
       expect(staffWithMaxAvailability.availableDates).toEqual(['2021-01-29', '2021-01-30']);
     });
   });
