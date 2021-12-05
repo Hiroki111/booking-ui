@@ -20,6 +20,7 @@ describe('services/availableDate', () => {
     const availableDateB = createMockAvailableDate({
       date: '2022-01-01',
       availableTimeSlots: [
+        { startTime: '08:00', endTime: '08:30' },
         { startTime: '09:30', endTime: '10:00' }, // the above available date has the same timeslot on the same date
         { startTime: '11:00', endTime: '11:30' },
         { startTime: '11:30', endTime: '12:00' },
@@ -39,7 +40,7 @@ describe('services/availableDate', () => {
       availableDates: [availableDateB, availableDateC],
     });
 
-    it('should get all the unique available timeslots that have at least 30 minutes', () => {
+    it('should get all the unique available timeslots in the ascending order that have at least 30 minutes', () => {
       const map = getMapDateToMaxAvailableDate([serviceA], [staffA, staffB]);
 
       expect(map).toEqual({
@@ -47,6 +48,7 @@ describe('services/availableDate', () => {
           id: -1,
           date: '2022-01-01',
           availableTimeSlots: [
+            { startTime: '08:00', endTime: '08:30' },
             { startTime: '09:00', endTime: '09:30' },
             { startTime: '09:30', endTime: '10:00' },
             { startTime: '10:30', endTime: '11:00' },
@@ -62,7 +64,7 @@ describe('services/availableDate', () => {
       });
     });
 
-    it('should get all the unique available timeslots that have at least 40 minutes', () => {
+    it('should get all the unique available timeslots in the ascending order that have at least 40 minutes', () => {
       const map = getMapDateToMaxAvailableDate([serviceA, serviceB], [staffA, staffB]);
 
       expect(map).toEqual({

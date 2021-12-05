@@ -4,7 +4,9 @@ import { MapDateToAvailableDate } from '../interfaces/availableDate';
 import { filterTimeslotsWithServices } from './timeslot';
 
 export function getMapDateToAvailableDate(selectedStaff: StaffDto, selectedServices: ServiceDto[]) {
-  if (!selectedStaff?.availableDates) return {};
+  if (!selectedStaff?.availableDates) {
+    return {};
+  }
 
   const availableDates = selectedStaff.availableDates.filter((availableDate) => {
     const availableTimeSlots = filterTimeslotsWithServices(availableDate?.availableTimeSlots || [], selectedServices);
@@ -21,11 +23,11 @@ export function getMapDateToMaxAvailableDate(selectedServices: ServiceDto[], sta
   const allAvailableDates = staffList.map((staff) => staff.availableDates).flat();
   const mapDateToDiscoveredTimeslotStartTime: { [date: string]: Set<string> } = {};
 
-  return allAvailableDates.reduce((mapDateToAvailableDateObj, availableDate) => {
+  const mapDateToAvailableDate = allAvailableDates.reduce((mapDateToAvailableDate, availableDate) => {
     const availableTimeSlots = filterTimeslotsWithServices(availableDate?.availableTimeSlots || [], selectedServices);
 
     if (!availableTimeSlots.length) {
-      return mapDateToAvailableDateObj;
+      return mapDateToAvailableDate;
     }
 
     const { date } = availableDate;
@@ -39,13 +41,24 @@ export function getMapDateToMaxAvailableDate(selectedServices: ServiceDto[], sta
     }
     undiscoveredTimeslots.forEach((timeslot) => mapDateToDiscoveredTimeslotStartTime[date].add(timeslot.startTime));
 
-    const existingTimeslots = mapDateToAvailableDateObj[date]?.availableTimeSlots || [];
+    const existingTimeslots = mapDateToAvailableDate[date]?.availableTimeSlots || [];
     return {
-      ...mapDateToAvailableDateObj,
+      ...mapDateToAvailableDate,
       [date]: {
         ...availableDate,
         id: -1,
         availableTimeSlots: existingTimeslots.concat(undiscoveredTimeslots),
+      },
+    };
+  }, {} as MapDateToAvailableDate);
+
+  return Object.keys(mapDateToAvailableDate).reduce((result, date) => {
+    const availableDate = mapDateToAvailableDate[date];
+    return {
+      ...result,
+      [date]: {
+        ...availableDate,
+        availableTimeSlots: availableDate.availableTimeSlots.sort((a, b) => a.startTime.localeCompare(b.startTime)),
       },
     };
   }, {} as MapDateToAvailableDate);
