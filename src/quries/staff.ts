@@ -1,20 +1,33 @@
-import { useQuery, UseQueryResult, UseQueryOptions } from 'react-query';
+import { useQuery, UseQueryResult } from 'react-query';
 
-import { StaffDto } from '../interfaces/staff';
+import { FetchStaffListResponseDto, NoPreferenceStaff, StaffDto } from '../interfaces/staff';
 import { ServiceDto } from '../interfaces/service';
 import restApi from '../network/restApi';
-import { selectStaffWhoCanDoAllServices } from '../services/staff';
+import { selectRegularStaffWhoCanDoAllServices, selectAllStaffWhoCanDoAllServices } from '../services/staff';
 
 export enum staffQuries {
   fetchStaffList = 'fetchStaffList',
 }
 
-export function useStaffQuery(options?: UseQueryOptions<any>): UseQueryResult<StaffDto[]> {
-  return useQuery(staffQuries.fetchStaffList, restApi.fetchStaffList, options);
+export function useStaffQuery(): UseQueryResult<FetchStaffListResponseDto> {
+  return useQuery<FetchStaffListResponseDto, any, FetchStaffListResponseDto>(
+    staffQuries.fetchStaffList,
+    restApi.fetchStaffList,
+  );
 }
 
-export function useAvailableStaffQuery(services: ServiceDto[]) {
-  return useStaffQuery({
-    select: (staffList: StaffDto[]) => selectStaffWhoCanDoAllServices(staffList, services),
+export function useRegularStaffQuery(services: ServiceDto[]): UseQueryResult<StaffDto[]> {
+  return useQuery<FetchStaffListResponseDto, any, StaffDto[]>(staffQuries.fetchStaffList, restApi.fetchStaffList, {
+    select: (staffList: FetchStaffListResponseDto) => selectRegularStaffWhoCanDoAllServices(staffList, services),
   });
+}
+
+export function useAllStaffQuery(services: ServiceDto[]): UseQueryResult<(NoPreferenceStaff | StaffDto)[]> {
+  return useQuery<FetchStaffListResponseDto, any, (NoPreferenceStaff | StaffDto)[]>(
+    staffQuries.fetchStaffList,
+    restApi.fetchStaffList,
+    {
+      select: (staffList: FetchStaffListResponseDto) => selectAllStaffWhoCanDoAllServices(staffList, services),
+    },
+  );
 }

@@ -5,7 +5,7 @@ import Chip from '@material-ui/core/Chip';
 import Slide from '@material-ui/core/Slide';
 
 import { useHomePageContext } from '../../../../../contexts/HomePageContext';
-import { useAvailableStaffQuery } from '../../../../../quries/staff';
+import { useRegularStaffQuery } from '../../../../../quries/staff';
 import { ROUTES } from '../../../../../routes';
 import { useStyles } from './useStyles';
 import { MAX_SERVICE_SELECTION_NUMBER } from '../../../../../staticData/service';
@@ -15,8 +15,8 @@ export function BottomBar() {
   const location = useLocation();
   const classes = useStyles();
   const { selectedServices } = useHomePageContext();
-  const availableStaffQuery = useAvailableStaffQuery(selectedServices);
-  const availableStaffList = availableStaffQuery.data || [];
+  const regularStaffQuery = useRegularStaffQuery(selectedServices);
+  const regularStaffList = regularStaffQuery.data || [];
 
   function handleOnClickBooking() {
     history.push(ROUTES.staff);
@@ -36,7 +36,7 @@ export function BottomBar() {
               color="primary"
               className={classes.bookigButton}
               onClick={handleOnClickBooking}
-              disabled={availableStaffList.length < 1 || MAX_SERVICE_SELECTION_NUMBER < selectedServices.length}
+              disabled={regularStaffList.length < 1 || MAX_SERVICE_SELECTION_NUMBER < selectedServices.length}
             />
           }
         />

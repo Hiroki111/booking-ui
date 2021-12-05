@@ -6,7 +6,7 @@ import { MenuBar } from './MenuBar';
 import { useHomePageContext } from '../../../../../contexts/HomePageContext';
 import { useServiceTypesQuries } from '../../../../../quries/serviceTypes';
 import { useStyles } from './useStyles';
-import { useAvailableStaffQuery } from '../../../../../quries/staff';
+import { useRegularStaffQuery } from '../../../../../quries/staff';
 import { MAX_SERVICE_SELECTION_NUMBER } from '../../../../../staticData/service';
 import { useIsSmallWindow } from '../../../../../hooks/window';
 import { ServiceType } from './ServiceType';
@@ -22,7 +22,7 @@ export function Service() {
   const { serviceTypeRefs, selectedServices, setServiceTypeRefs } = useHomePageContext();
   const isSmallWindow = useIsSmallWindow();
   const serviceTypesQuery = useServiceTypesQuries();
-  const availableStaffQuery = useAvailableStaffQuery(selectedServices);
+  const availableStaffQuery = useRegularStaffQuery(selectedServices);
 
   const serviceTypes = serviceTypesQuery.data || [];
   const availableStaffList = availableStaffQuery.data || [];

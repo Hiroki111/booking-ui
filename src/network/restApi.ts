@@ -1,15 +1,15 @@
-import { StaffDto } from '../interfaces/staff';
+import { FetchStaffListResponseDto } from '../interfaces/staff';
 import { ServiceTypeDto } from '../interfaces/serviceType';
 import { BookingRequestDto } from '../interfaces/booking';
-import { mockServiceTypes, mockStaffLinst, mockCaptcha } from './mockData';
+import { mockServiceTypes, mockStaffList, mockCaptcha } from './mockData';
 
 const restApi = {
   fetchServiceTypes: async function (): Promise<ServiceTypeDto[]> {
     return new Promise((resolve) => setTimeout(() => resolve(mockServiceTypes), 500));
   },
 
-  fetchStaffList: async function (): Promise<StaffDto[]> {
-    return new Promise((resolve) => setTimeout(() => resolve(mockStaffLinst), 500));
+  fetchStaffList: async function (): Promise<FetchStaffListResponseDto> {
+    return new Promise((resolve) => setTimeout(() => resolve(mockStaffList), 500));
   },
 
   fetchCaptcha: async function (): Promise<string> {

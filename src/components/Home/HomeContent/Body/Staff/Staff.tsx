@@ -2,15 +2,14 @@ import { Paper, Typography } from '@material-ui/core';
 
 import { StaffPanel } from './StaffPanel';
 import { useHomePageContext } from '../../../../../contexts/HomePageContext';
-import { useAvailableStaffQuery } from '../../../../../quries/staff';
-import { getStaffListWithNoPreferenceStaff } from '../../../../../services/staff';
+import { useAllStaffQuery } from '../../../../../quries/staff';
 import { useStyles } from './useStyles';
 
 export function Staff() {
   const classes = useStyles();
   const { selectedServices } = useHomePageContext();
-  const availableStaffQuery = useAvailableStaffQuery(selectedServices);
-  const staffList = getStaffListWithNoPreferenceStaff(availableStaffQuery.data || []);
+  const allStaffQuery = useAllStaffQuery(selectedServices);
+  const staffList = allStaffQuery.data || [];
 
   function displayStaffList() {
     if (!staffList.length) {

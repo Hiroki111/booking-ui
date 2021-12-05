@@ -1,8 +1,2 @@
-import { NoPreferenceStaff } from '../interfaces/staff';
-
-export const NO_PREFERENCE_STAFF: NoPreferenceStaff = {
-  id: -1,
-  name: 'No preference',
-  title: 'Maximum availability',
-  availableDates: [] as string[],
-};
+// TODO: Make this available in backend too
+export const NO_PREFERENCE_STAFF_ID = -1;

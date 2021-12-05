@@ -10,7 +10,7 @@ import { useStyles } from './useStyles';
 import { NoPreferenceStaff, StaffDto } from '../../../../interfaces/staff';
 import { useIsSmallWindow } from '../../../../hooks/window';
 import { ServiceTabs } from './ServiceTabs';
-import { NO_PREFERENCE_STAFF } from '../../../../staticData/staff';
+import { NO_PREFERENCE_STAFF_ID } from '../../../../staticData/staff';
 
 export function Header() {
   const classes = useStyles();
@@ -52,7 +52,7 @@ export function Header() {
   }
 
   function getHeaderTextForAvailability(staff: StaffDto | NoPreferenceStaff) {
-    if (staff.id === NO_PREFERENCE_STAFF.id) {
+    if (staff.id === NO_PREFERENCE_STAFF_ID) {
       return 'Select time';
     }
 

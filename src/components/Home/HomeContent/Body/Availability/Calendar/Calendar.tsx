@@ -4,19 +4,19 @@ import { useHomePageContext } from '../../../../../../contexts/HomePageContext';
 import { getMapDateToAvailableDate, getMapDateToMaxAvailableDate } from '../../../../../../services/availableDate';
 import { MapDateToAvailableDate } from '../../../../../../interfaces/availableDate';
 import { useStyles } from './useStyles';
-import { NO_PREFERENCE_STAFF } from '../../../../../../staticData/staff';
+import { NO_PREFERENCE_STAFF_ID } from '../../../../../../staticData/staff';
 import { StaffDto } from '../../../../../../interfaces/staff';
 import { TimeTableCell } from './TimeTableCell';
-import { useAvailableStaffQuery } from '../../../../../../quries/staff';
+import { useRegularStaffQuery } from '../../../../../../quries/staff';
 
 export function Calendar() {
   const classes = useStyles();
   const { selectedStaff, selectedServices } = useHomePageContext();
-  const availableStaffQuery = useAvailableStaffQuery(selectedServices);
+  const regularStaffQuery = useRegularStaffQuery(selectedServices);
   let mapDateToAvailableDate: MapDateToAvailableDate;
 
-  if (selectedStaff.id === NO_PREFERENCE_STAFF.id) {
-    mapDateToAvailableDate = getMapDateToMaxAvailableDate(selectedServices, availableStaffQuery.data || []);
+  if (selectedStaff.id === NO_PREFERENCE_STAFF_ID) {
+    mapDateToAvailableDate = getMapDateToMaxAvailableDate(selectedServices, regularStaffQuery.data || []);
   } else {
     mapDateToAvailableDate = getMapDateToAvailableDate(selectedStaff as StaffDto, selectedServices);
   }

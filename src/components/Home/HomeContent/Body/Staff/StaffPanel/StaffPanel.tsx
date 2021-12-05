@@ -10,7 +10,7 @@ import { useHomePageContext } from '../../../../../../contexts/HomePageContext';
 import { ROUTES } from '../../../../../../routes';
 import { getPathToSkippedPage } from '../../../../../../services/routing';
 import { useStyles } from './useStyles';
-import { NO_PREFERENCE_STAFF } from '../../../../../../staticData/staff';
+import { NO_PREFERENCE_STAFF_ID } from '../../../../../../staticData/staff';
 
 export interface Props {
   staff: StaffDto | NoPreferenceStaff;
@@ -42,7 +42,7 @@ export function StaffPanel({ staff }: Props) {
   }
 
   function displayAvatar(staff: StaffDto) {
-    if (staff.id === NO_PREFERENCE_STAFF.id) {
+    if (staff.id === NO_PREFERENCE_STAFF_ID) {
       return (
         <Avatar data-testid="no-preference-staff-avatar" className={classes.avatar}>
           <PeopleIcon />
