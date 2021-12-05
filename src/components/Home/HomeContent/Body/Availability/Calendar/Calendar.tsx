@@ -1,8 +1,8 @@
 import { MonthView } from '@devexpress/dx-react-scheduler-material-ui';
 
 import { useHomePageContext } from '../../../../../../contexts/HomePageContext';
-import { getAvailableDateMap, getAvailableDateMapWithMaxAvailability } from '../../../../../../services/availableDate';
-import { AvailableDateMap } from '../../../../../../interfaces/availableDate';
+import { getMapDateToAvailableDate, getMapDateToMaxAvailableDate } from '../../../../../../services/availableDate';
+import { MapDateToAvailableDate } from '../../../../../../interfaces/availableDate';
 import { useStyles } from './useStyles';
 import { NO_PREFERENCE_STAFF } from '../../../../../../staticData/staff';
 import { StaffDto } from '../../../../../../interfaces/staff';
@@ -13,12 +13,12 @@ export function Calendar() {
   const classes = useStyles();
   const { selectedStaff, selectedServices } = useHomePageContext();
   const availableStaffQuery = useAvailableStaffQuery(selectedServices);
-  let availableDateMap: AvailableDateMap;
+  let mapDateToAvailableDate: MapDateToAvailableDate;
 
   if (selectedStaff.id === NO_PREFERENCE_STAFF.id) {
-    availableDateMap = getAvailableDateMapWithMaxAvailability(selectedServices, availableStaffQuery.data || []);
+    mapDateToAvailableDate = getMapDateToMaxAvailableDate(selectedServices, availableStaffQuery.data || []);
   } else {
-    availableDateMap = getAvailableDateMap(selectedStaff as StaffDto, selectedServices);
+    mapDateToAvailableDate = getMapDateToAvailableDate(selectedStaff as StaffDto, selectedServices);
   }
 
   function TableComponent(props: any) {
@@ -33,9 +33,7 @@ export function Calendar() {
     <MonthView
       timeTableLayoutComponent={TableComponent}
       dayScaleLayoutComponent={DayScaleLayoutComponent}
-      timeTableCellComponent={(props) => (
-        <TimeTableCell {...props} selectedStaff={selectedStaff} availableDateMap={availableDateMap} />
-      )}
+      timeTableCellComponent={(props) => <TimeTableCell {...props} mapDateToAvailableDate={mapDateToAvailableDate} />}
     />
   );
 }

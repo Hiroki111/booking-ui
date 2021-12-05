@@ -1,9 +1,9 @@
 import { ServiceDto } from '../interfaces/service';
 import { StaffDto } from '../interfaces/staff';
-import { AvailableDateMap } from '../interfaces/availableDate';
+import { MapDateToAvailableDate } from '../interfaces/availableDate';
 import { filterTimeslotsWithServices } from './timeslot';
 
-export function getAvailableDateMap(selectedStaff: StaffDto, selectedServices: ServiceDto[]): AvailableDateMap {
+export function getMapDateToAvailableDate(selectedStaff: StaffDto, selectedServices: ServiceDto[]) {
   if (!selectedStaff?.availableDates) return {};
 
   const availableDates = selectedStaff.availableDates.filter((availableDate) => {
@@ -11,13 +11,13 @@ export function getAvailableDateMap(selectedStaff: StaffDto, selectedServices: S
     return availableTimeSlots.length > 0;
   });
 
-  return availableDates.reduce((map, availableDate) => ({ ...map, [availableDate.date]: availableDate }), {});
+  return availableDates.reduce(
+    (map, availableDate) => ({ ...map, [availableDate.date]: availableDate }),
+    {} as MapDateToAvailableDate,
+  );
 }
 
-export function getAvailableDateMapWithMaxAvailability(
-  selectedServices: ServiceDto[],
-  staffList: StaffDto[],
-): AvailableDateMap {
+export function getMapDateToMaxAvailableDate(selectedServices: ServiceDto[], staffList: StaffDto[]) {
   const allAvailableDates = staffList.map((staff) => staff.availableDates).flat();
   const mapDateToDiscoveredTimeslotStartTime: { [date: string]: Set<string> } = {};
 
@@ -48,5 +48,5 @@ export function getAvailableDateMapWithMaxAvailability(
         availableTimeSlots: existingTimeslots.concat(undiscoveredTimeslots),
       },
     };
-  }, {} as AvailableDateMap);
+  }, {} as MapDateToAvailableDate);
 }

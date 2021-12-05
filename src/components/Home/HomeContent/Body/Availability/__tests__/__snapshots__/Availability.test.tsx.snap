@@ -2,10 +2,10 @@
 
 exports[`Availability.tsx should render the calendar 1`] = `
 <div
-  className="MuiPaper-root makeStyles-schedulerContainer-57 MuiPaper-elevation2 MuiPaper-rounded"
+  className="MuiPaper-root makeStyles-schedulerContainer-53 MuiPaper-elevation2 MuiPaper-rounded"
 >
   <div
-    className="Root-container-62"
+    className="Root-container-58"
     style={
       Object {
         "height": "100%",
@@ -13,13 +13,13 @@ exports[`Availability.tsx should render the calendar 1`] = `
     }
   >
     <div
-      className="MuiToolbar-root MuiToolbar-regular Toolbar-toolbar-63 makeStyles-toolbarRoot-58 MuiToolbar-gutters"
+      className="MuiToolbar-root MuiToolbar-regular Toolbar-toolbar-59 makeStyles-toolbarRoot-54 MuiToolbar-gutters"
     >
       <div
-        className="RootBase-root-64"
+        className="RootBase-root-60"
       >
         <button
-          className="MuiButtonBase-root MuiIconButton-root NavigationButton-button-66 makeStyles-hideNavButton-65"
+          className="MuiButtonBase-root MuiIconButton-root NavigationButton-button-62 makeStyles-hideNavButton-61"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -52,7 +52,7 @@ exports[`Availability.tsx should render the calendar 1`] = `
           </span>
         </button>
         <button
-          className="MuiButtonBase-root MuiIconButton-root NavigationButton-button-66"
+          className="MuiButtonBase-root MuiIconButton-root NavigationButton-button-62"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -85,7 +85,7 @@ exports[`Availability.tsx should render the calendar 1`] = `
           </span>
         </button>
         <button
-          className="MuiButtonBase-root MuiButton-root MuiButton-text OpenButton-textButton-67 makeStyles-monthLabel-59"
+          className="MuiButtonBase-root MuiButton-root MuiButton-text OpenButton-textButton-63 makeStyles-monthLabel-55"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -109,7 +109,7 @@ exports[`Availability.tsx should render the calendar 1`] = `
           </span>
         </button>
         <button
-          className="MuiButtonBase-root MuiIconButton-root OpenButton-iconButton-68 makeStyles-monthLabel-59"
+          className="MuiButtonBase-root MuiIconButton-root OpenButton-iconButton-64 makeStyles-monthLabel-55"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -143,23 +143,23 @@ exports[`Availability.tsx should render the calendar 1`] = `
         </button>
       </div>
       <div
-        className="FlexibleSpace-flexibleSpace-69"
+        className="FlexibleSpace-flexibleSpace-65"
       />
     </div>
     <div
-      className="makeStyles-container-70"
+      className="makeStyles-container-66"
       onScroll={[Function]}
     >
       <div>
         <div
-          className="makeStyles-stickyElement-71 makeStyles-header-72 makeStyles-flexRow-79"
+          className="makeStyles-stickyElement-67 makeStyles-header-68 makeStyles-flexRow-75"
         >
           <div
-            className="makeStyles-background-82 makeStyles-inlineFlex-81 makeStyles-ordinaryHeaderBorder-76"
+            className="makeStyles-background-78 makeStyles-inlineFlex-77 makeStyles-ordinaryHeaderBorder-72"
           >
             <div>
               <table
-                className="MuiTable-root makeStyles-table-84 makeStyles-table-85 makeStyles-dayScaleLayout-61"
+                className="MuiTable-root makeStyles-table-80 makeStyles-table-81 makeStyles-dayScaleLayout-57"
                 role={null}
               >
                 <tbody
@@ -172,70 +172,70 @@ exports[`Availability.tsx should render the calendar 1`] = `
                   >
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-86"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
                     >
                       <div
-                        className="Cell-dayOfWeek-87"
+                        className="Cell-dayOfWeek-83"
                       >
                         Sun
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-86"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
                     >
                       <div
-                        className="Cell-dayOfWeek-87"
+                        className="Cell-dayOfWeek-83"
                       >
                         Mon
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-86"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
                     >
                       <div
-                        className="Cell-dayOfWeek-87"
+                        className="Cell-dayOfWeek-83"
                       >
                         Tue
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-86"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
                     >
                       <div
-                        className="Cell-dayOfWeek-87"
+                        className="Cell-dayOfWeek-83"
                       >
                         Wed
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-86"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
                     >
                       <div
-                        className="Cell-dayOfWeek-87"
+                        className="Cell-dayOfWeek-83"
                       >
                         Thu
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-86"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
                     >
                       <div
-                        className="Cell-dayOfWeek-87"
+                        className="Cell-dayOfWeek-83"
                       >
                         Fri
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-86"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
                     >
                       <div
-                        className="Cell-dayOfWeek-87"
+                        className="Cell-dayOfWeek-83"
                       >
                         Sat
                       </div>
@@ -247,16 +247,16 @@ exports[`Availability.tsx should render the calendar 1`] = `
           </div>
         </div>
         <div
-          className="makeStyles-flexRow-79"
+          className="makeStyles-flexRow-75"
         >
           <div
-            className="makeStyles-inlineFlex-81"
+            className="makeStyles-inlineFlex-77"
           >
             <div
-              className="makeStyles-relativeContainer-80"
+              className="makeStyles-relativeContainer-76"
             >
               <table
-                className="MuiTable-root makeStyles-table-84 makeStyles-table-89 makeStyles-timeTableLayout-60"
+                className="MuiTable-root makeStyles-table-80 makeStyles-table-85 makeStyles-timeTableLayout-56"
                 role={null}
               >
                 <tbody
@@ -269,84 +269,84 @@ exports[`Availability.tsx should render the calendar 1`] = `
                   >
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95 Cell-otherMonth-97"
+                        className="Cell-text-91 Cell-otherMonth-93"
                       >
                         27
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95 Cell-otherMonth-97"
+                        className="Cell-text-91 Cell-otherMonth-93"
                       >
                         28
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-availableDay-91"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-availableDay-87"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         Mar 1
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         2
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         3
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         4
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         5
                       </div>
@@ -358,84 +358,84 @@ exports[`Availability.tsx should render the calendar 1`] = `
                   >
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         6
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         7
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         8
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         9
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         10
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         11
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         12
                       </div>
@@ -447,84 +447,84 @@ exports[`Availability.tsx should render the calendar 1`] = `
                   >
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         13
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         14
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-availableDay-91"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-availableDay-87"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         15
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         16
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         17
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         18
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         19
                       </div>
@@ -536,84 +536,84 @@ exports[`Availability.tsx should render the calendar 1`] = `
                   >
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         20
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         21
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         22
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         23
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         24
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         25
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         26
                       </div>
@@ -625,84 +625,84 @@ exports[`Availability.tsx should render the calendar 1`] = `
                   >
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         27
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         28
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         29
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-availableDay-91"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-availableDay-87"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         30
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95"
+                        className="Cell-text-91"
                       >
                         31
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95 Cell-otherMonth-97"
+                        className="Cell-text-91 Cell-otherMonth-93"
                       >
                         Apr 1
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95 Cell-otherMonth-97"
+                        className="Cell-text-91 Cell-otherMonth-93"
                       >
                         2
                       </div>
@@ -714,84 +714,84 @@ exports[`Availability.tsx should render the calendar 1`] = `
                   >
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95 Cell-otherMonth-97"
+                        className="Cell-text-91 Cell-otherMonth-93"
                       >
                         3
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95 Cell-otherMonth-97"
+                        className="Cell-text-91 Cell-otherMonth-93"
                       >
                         4
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95 Cell-otherMonth-97"
+                        className="Cell-text-91 Cell-otherMonth-93"
                       >
                         5
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95 Cell-otherMonth-97"
+                        className="Cell-text-91 Cell-otherMonth-93"
                       >
                         6
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95 Cell-otherMonth-97"
+                        className="Cell-text-91 Cell-otherMonth-93"
                       >
                         7
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95 Cell-otherMonth-97"
+                        className="Cell-text-91 Cell-otherMonth-93"
                       >
                         8
                       </div>
                     </td>
                     <td
                       aria-sort={null}
-                      className="MuiTableCell-root MuiTableCell-body Cell-cell-94 makeStyles-dayCell-90 makeStyles-unavailableDay-92"
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
                       onClick={[Function]}
                       tabIndex={0}
                     >
                       <div
-                        className="Cell-text-95 Cell-otherMonth-97"
+                        className="Cell-text-91 Cell-otherMonth-93"
                       >
                         9
                       </div>
@@ -800,7 +800,7 @@ exports[`Availability.tsx should render the calendar 1`] = `
                 </tbody>
               </table>
               <div
-                className="AppointmentsContainer-container-101"
+                className="AppointmentsContainer-container-97"
               />
             </div>
           </div>
