@@ -3,33 +3,31 @@ import clsx from 'clsx';
 import dayjs from 'dayjs';
 
 import { useHomePageContext } from '../../../../../../../contexts/HomePageContext';
-import { AvailableDateMap } from '../../../../../../../interfaces/availableDate';
-import { NoPreferenceStaff, StaffDto } from '../../../../../../../interfaces/staff';
+import { MapDateToAvailableDate } from '../../../../../../../interfaces/availableDate';
 import { useStyles } from './useStyles';
 
 interface Props {
-  selectedStaff: StaffDto | NoPreferenceStaff;
-  availableDateMap: AvailableDateMap;
+  mapDateToAvailableDate: MapDateToAvailableDate;
 }
 
-export function TimeTableCell({ selectedStaff, availableDateMap, ...monthViewProps }: Props & any) {
+export function TimeTableCell({ mapDateToAvailableDate, ...monthViewProps }: Props & any) {
   const classes = useStyles();
   const { selectedDate, setSelectedDate } = useHomePageContext();
-  const dateString = dayjs(monthViewProps.startDate).format('YYYY-MM-DD');
-  const availableDateObj = availableDateMap[dateString];
+  const date = dayjs(monthViewProps.startDate).format('YYYY-MM-DD');
+  const availableDate = mapDateToAvailableDate[date];
 
   return (
     <MonthView.TimeTableCell
       {...{ ...monthViewProps, today: false }}
       className={clsx(
         classes.dayCell,
-        availableDateObj?.date ? classes.availableDay : classes.unavailableDay,
-        dateString === selectedDate?.date ? classes.selectedDay : '',
+        availableDate?.date ? classes.availableDay : classes.unavailableDay,
+        date === selectedDate?.date ? classes.selectedDay : '',
       )}
       onClick={() => {
-        if (!availableDateObj) return;
+        if (!availableDate) return;
 
-        setSelectedDate(availableDateObj);
+        setSelectedDate(availableDate);
       }}
     />
   );

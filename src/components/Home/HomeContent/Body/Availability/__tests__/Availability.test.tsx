@@ -14,9 +14,6 @@ import { createMockServiceDto } from '../../../../../../testUtil/mockData/servic
 jest.mock('../../../../../../services/routing', () => ({
   getPathToSkippedPage: jest.fn().mockImplementation(() => null),
 }));
-jest.mock('../../../../../../network/restApi', () => ({
-  fetchStaffList: jest.fn(),
-}));
 
 describe('Availability.tsx', () => {
   function getAvailabilityComponent(contextValue: HomePageContextInterface) {
@@ -62,11 +59,9 @@ describe('Availability.tsx', () => {
 
     const contextValue = createMockHomePageContextValue({
       selectedStaff: staff,
-      selectedServices: [service]
+      selectedServices: [service],
     });
-    const tree = renderer
-      .create(getAvailabilityComponent(contextValue))
-      .toJSON();
+    const tree = renderer.create(getAvailabilityComponent(contextValue)).toJSON();
     // '2022-03-01', '2022-03-15', '2022-03-30' will have makeStyles-availableDay-{day} class in the snapshot
     expect(tree).toMatchSnapshot();
   });

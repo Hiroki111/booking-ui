@@ -1,5 +1,5 @@
 import { AvailableDate } from './staff';
 
-export interface AvailableDateMap {
+export interface MapDateToAvailableDate {
   [dateString: string]: AvailableDate;
 }
