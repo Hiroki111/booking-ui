@@ -13,6 +13,7 @@ describe('queries/staff', () => {
   const serviceA = createMockServiceDto({ id: 1 });
   const serviceB = createMockServiceDto({ id: 2 });
   const serviceC = createMockServiceDto({ id: 3 });
+  const serviceZ = createMockServiceDto({ id: 100 });
 
   function wrapper({ children }: { children: JSX.Element }) {
     return <QueryClientProvider client={new QueryClient()}>{children}</QueryClientProvider>;
@@ -37,6 +38,10 @@ describe('queries/staff', () => {
       renderHookResult = renderHook(() => useRegularStaffQuery([]), { wrapper });
       await renderHookResult.waitFor(() => renderHookResult.result.current.isSuccess);
       expect(renderHookResult.result.current.data).toEqual([staffA, staffB, staffC, staffD]);
+
+      renderHookResult = renderHook(() => useRegularStaffQuery([serviceZ]), { wrapper });
+      await renderHookResult.waitFor(() => renderHookResult.result.current.isSuccess);
+      expect(renderHookResult.result.current.data).toEqual([]);
     });
   });
 
@@ -65,6 +70,10 @@ describe('queries/staff', () => {
       renderHookResult = renderHook(() => useAllStaffQuery([]), { wrapper });
       await renderHookResult.waitFor(() => renderHookResult.result.current.isSuccess);
       expect(renderHookResult.result.current.data).toEqual([nonPreferenceStaff, staffA, staffB, staffC, staffD]);
+
+      renderHookResult = renderHook(() => useAllStaffQuery([serviceZ]), { wrapper });
+      await renderHookResult.waitFor(() => renderHookResult.result.current.isSuccess);
+      expect(renderHookResult.result.current.data).toEqual([]);
     });
   });
 });
