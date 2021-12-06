@@ -178,7 +178,7 @@ export const mockServiceTypes = [
 const mockRegularStaffList = [
   {
     id: 1,
-    name: 'Cooper Adcock',
+    name: 'Cooper Afternoon',
     title: 'Senior Colorist',
     profilePhotoUrl:
       'https://res.cloudinary.com/practicaldev/image/fetch/s--H4p1KR_4--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/418876/293e9eaa-92fc-44d3-9705-67f74f20608d.jpeg',
@@ -238,30 +238,6 @@ const mockRegularStaffList = [
         date: '2021-12-10',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -320,14 +296,6 @@ const mockRegularStaffList = [
         date: '2021-12-11',
         availableTimeSlots: [
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -382,30 +350,6 @@ const mockRegularStaffList = [
         date: '2021-12-15',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -451,26 +395,6 @@ const mockRegularStaffList = [
         id: 301,
         date: '2021-12-17',
         availableTimeSlots: [
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
           {
             startTime: '12:00',
             endTime: '12:30',
@@ -522,30 +446,6 @@ const mockRegularStaffList = [
         date: '2021-12-20',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -596,22 +496,6 @@ const mockRegularStaffList = [
         date: '2021-12-21',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -654,30 +538,6 @@ const mockRegularStaffList = [
         date: '2021-12-25',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -716,26 +576,6 @@ const mockRegularStaffList = [
         date: '2021-12-27',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -773,18 +613,6 @@ const mockRegularStaffList = [
         id: 351,
         date: '2022-01-01',
         availableTimeSlots: [
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
           {
             startTime: '12:00',
             endTime: '12:30',
@@ -840,30 +668,6 @@ const mockRegularStaffList = [
         date: '2022-01-02',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -918,22 +722,6 @@ const mockRegularStaffList = [
         date: '2022-01-03',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -972,30 +760,6 @@ const mockRegularStaffList = [
         date: '2022-01-05',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -1033,22 +797,6 @@ const mockRegularStaffList = [
         id: 391,
         date: '2022-01-15',
         availableTimeSlots: [
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
           {
             startTime: '12:00',
             endTime: '12:30',
@@ -1091,18 +839,6 @@ const mockRegularStaffList = [
         id: 401,
         date: '2022-01-20',
         availableTimeSlots: [
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
           {
             startTime: '12:00',
             endTime: '12:30',
@@ -1154,22 +890,6 @@ const mockRegularStaffList = [
         date: '2022-01-21',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -1220,30 +940,6 @@ const mockRegularStaffList = [
         date: '2022-01-25',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -1290,26 +986,6 @@ const mockRegularStaffList = [
         date: '2022-01-27',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -1355,30 +1031,6 @@ const mockRegularStaffList = [
         id: 441,
         date: '2022-02-05',
         availableTimeSlots: [
-          {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
           {
             startTime: '12:00',
             endTime: '12:30',
@@ -1430,26 +1082,6 @@ const mockRegularStaffList = [
         date: '2022-02-06',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -1492,30 +1124,6 @@ const mockRegularStaffList = [
         date: '2022-02-08',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -1553,26 +1161,6 @@ const mockRegularStaffList = [
         id: 471,
         date: '2022-02-09',
         availableTimeSlots: [
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
           {
             startTime: '12:00',
             endTime: '12:30',
@@ -1627,30 +1215,6 @@ const mockRegularStaffList = [
         id: 481,
         date: '2022-02-10',
         availableTimeSlots: [
-          {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
           {
             startTime: '12:00',
             endTime: '12:30',
@@ -1710,26 +1274,6 @@ const mockRegularStaffList = [
         date: '2022-02-11',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -1784,30 +1328,6 @@ const mockRegularStaffList = [
         date: '2022-02-15',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -1853,26 +1373,6 @@ const mockRegularStaffList = [
         id: 511,
         date: '2022-02-17',
         availableTimeSlots: [
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
           {
             startTime: '12:00',
             endTime: '12:30',
@@ -1924,30 +1424,6 @@ const mockRegularStaffList = [
         date: '2022-02-20',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -1998,22 +1474,6 @@ const mockRegularStaffList = [
         date: '2022-02-21',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -2056,22 +1516,6 @@ const mockRegularStaffList = [
         date: '2022-02-25',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
-          },
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
             startTime: '12:00',
             endTime: '12:30',
           },
@@ -2109,26 +1553,6 @@ const mockRegularStaffList = [
         id: 551,
         date: '2022-02-27',
         availableTimeSlots: [
-          {
-            startTime: '09:30',
-            endTime: '10:00',
-          },
-          {
-            startTime: '10:00',
-            endTime: '10:30',
-          },
-          {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
           {
             startTime: '12:00',
             endTime: '12:30',
@@ -4158,7 +3582,7 @@ const mockRegularStaffList = [
   },
   {
     id: 3,
-    name: 'Cohen Teel',
+    name: 'Cohen Earlymorning',
     title: 'Senior Hair Stylist',
     services: [
       {
@@ -4224,80 +3648,20 @@ const mockRegularStaffList = [
         date: '2021-12-10',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
-          },
-          {
-            startTime: '18:00',
-            endTime: '18:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -4306,72 +3670,20 @@ const mockRegularStaffList = [
         date: '2021-12-11',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -4380,68 +3692,20 @@ const mockRegularStaffList = [
         date: '2021-12-15',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -4450,68 +3714,20 @@ const mockRegularStaffList = [
         date: '2021-12-17',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -4520,72 +3736,20 @@ const mockRegularStaffList = [
         date: '2021-12-20',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -4594,56 +3758,20 @@ const mockRegularStaffList = [
         date: '2021-12-21',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -4652,60 +3780,20 @@ const mockRegularStaffList = [
         date: '2021-12-25',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -4714,56 +3802,20 @@ const mockRegularStaffList = [
         date: '2021-12-27',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -4772,64 +3824,20 @@ const mockRegularStaffList = [
         date: '2022-01-01',
         availableTimeSlots: [
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -4838,76 +3846,20 @@ const mockRegularStaffList = [
         date: '2022-01-02',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -4916,52 +3868,20 @@ const mockRegularStaffList = [
         date: '2022-01-03',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -4970,60 +3890,20 @@ const mockRegularStaffList = [
         date: '2022-01-05',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5032,56 +3912,20 @@ const mockRegularStaffList = [
         date: '2022-01-15',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5090,60 +3934,20 @@ const mockRegularStaffList = [
         date: '2022-01-20',
         availableTimeSlots: [
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5152,64 +3956,20 @@ const mockRegularStaffList = [
         date: '2022-01-21',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5218,68 +3978,20 @@ const mockRegularStaffList = [
         date: '2022-01-25',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5288,64 +4000,20 @@ const mockRegularStaffList = [
         date: '2022-01-27',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5354,72 +4022,20 @@ const mockRegularStaffList = [
         date: '2022-02-05',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5428,60 +4044,20 @@ const mockRegularStaffList = [
         date: '2022-02-06',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5490,60 +4066,20 @@ const mockRegularStaffList = [
         date: '2022-02-08',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5552,72 +4088,20 @@ const mockRegularStaffList = [
         date: '2022-02-09',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5626,80 +4110,20 @@ const mockRegularStaffList = [
         date: '2022-02-10',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
-          },
-          {
-            startTime: '18:00',
-            endTime: '18:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5708,72 +4132,20 @@ const mockRegularStaffList = [
         date: '2022-02-11',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5782,68 +4154,20 @@ const mockRegularStaffList = [
         date: '2022-02-15',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5852,68 +4176,20 @@ const mockRegularStaffList = [
         date: '2022-02-17',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5922,72 +4198,20 @@ const mockRegularStaffList = [
         date: '2022-02-20',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -5996,56 +4220,20 @@ const mockRegularStaffList = [
         date: '2022-02-21',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -6054,60 +4242,20 @@ const mockRegularStaffList = [
         date: '2022-02-25',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -6116,56 +4264,20 @@ const mockRegularStaffList = [
         date: '2022-02-27',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '07:00',
+            endTime: '07:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '07:30',
+            endTime: '08:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '08:00',
+            endTime: '08:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '08:30',
+            endTime: '09:00',
           },
         ],
       },
@@ -6173,7 +4285,7 @@ const mockRegularStaffList = [
   },
   {
     id: 4,
-    name: 'Jayna Wilcox',
+    name: 'Jayna Nightshifts',
     title: 'Hair Stylist',
     services: [
       {
@@ -6231,80 +4343,20 @@ const mockRegularStaffList = [
         date: '2021-12-10',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
-          },
-          {
-            startTime: '18:00',
-            endTime: '18:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -6313,72 +4365,20 @@ const mockRegularStaffList = [
         date: '2021-12-11',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -6387,68 +4387,20 @@ const mockRegularStaffList = [
         date: '2021-12-15',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -6457,68 +4409,20 @@ const mockRegularStaffList = [
         date: '2021-12-17',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -6527,72 +4431,20 @@ const mockRegularStaffList = [
         date: '2021-12-20',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -6601,56 +4453,20 @@ const mockRegularStaffList = [
         date: '2021-12-21',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -6659,60 +4475,20 @@ const mockRegularStaffList = [
         date: '2021-12-25',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -6721,56 +4497,20 @@ const mockRegularStaffList = [
         date: '2021-12-27',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -6779,64 +4519,20 @@ const mockRegularStaffList = [
         date: '2022-01-01',
         availableTimeSlots: [
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -6845,76 +4541,20 @@ const mockRegularStaffList = [
         date: '2022-01-02',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -6923,52 +4563,20 @@ const mockRegularStaffList = [
         date: '2022-01-03',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -6977,60 +4585,20 @@ const mockRegularStaffList = [
         date: '2022-01-05',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7039,56 +4607,20 @@ const mockRegularStaffList = [
         date: '2022-01-15',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7097,60 +4629,20 @@ const mockRegularStaffList = [
         date: '2022-01-20',
         availableTimeSlots: [
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7159,64 +4651,20 @@ const mockRegularStaffList = [
         date: '2022-01-21',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7225,68 +4673,20 @@ const mockRegularStaffList = [
         date: '2022-01-25',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7295,64 +4695,20 @@ const mockRegularStaffList = [
         date: '2022-01-27',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7361,72 +4717,20 @@ const mockRegularStaffList = [
         date: '2022-02-05',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7435,60 +4739,20 @@ const mockRegularStaffList = [
         date: '2022-02-06',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7497,60 +4761,20 @@ const mockRegularStaffList = [
         date: '2022-02-08',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7559,72 +4783,20 @@ const mockRegularStaffList = [
         date: '2022-02-09',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7633,80 +4805,20 @@ const mockRegularStaffList = [
         date: '2022-02-10',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
-          },
-          {
-            startTime: '18:00',
-            endTime: '18:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7715,72 +4827,20 @@ const mockRegularStaffList = [
         date: '2022-02-11',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
-          },
-          {
-            startTime: '17:30',
-            endTime: '18:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7789,68 +4849,20 @@ const mockRegularStaffList = [
         date: '2022-02-15',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7859,68 +4871,20 @@ const mockRegularStaffList = [
         date: '2022-02-17',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -7929,72 +4893,20 @@ const mockRegularStaffList = [
         date: '2022-02-20',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
-          },
-          {
-            startTime: '16:30',
-            endTime: '17:00',
-          },
-          {
-            startTime: '17:00',
-            endTime: '17:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -8003,56 +4915,20 @@ const mockRegularStaffList = [
         date: '2022-02-21',
         availableTimeSlots: [
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
-          },
-          {
-            startTime: '16:00',
-            endTime: '16:30',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -8061,60 +4937,20 @@ const mockRegularStaffList = [
         date: '2022-02-25',
         availableTimeSlots: [
           {
-            startTime: '09:00',
-            endTime: '09:30',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
-          },
-          {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
@@ -8123,56 +4959,20 @@ const mockRegularStaffList = [
         date: '2022-02-27',
         availableTimeSlots: [
           {
-            startTime: '09:30',
-            endTime: '10:00',
+            startTime: '20:00',
+            endTime: '20:30',
           },
           {
-            startTime: '10:00',
-            endTime: '10:30',
+            startTime: '20:30',
+            endTime: '21:00',
           },
           {
-            startTime: '10:30',
-            endTime: '11:00',
+            startTime: '21:00',
+            endTime: '21:30',
           },
           {
-            startTime: '11:00',
-            endTime: '11:30',
-          },
-          {
-            startTime: '11:30',
-            endTime: '12:00',
-          },
-          {
-            startTime: '12:00',
-            endTime: '12:30',
-          },
-          {
-            startTime: '12:30',
-            endTime: '13:00',
-          },
-          {
-            startTime: '13:00',
-            endTime: '13:30',
-          },
-          {
-            startTime: '13:30',
-            endTime: '14:00',
-          },
-          {
-            startTime: '14:00',
-            endTime: '14:30',
-          },
-          {
-            startTime: '14:30',
-            endTime: '15:00',
-          },
-          {
-            startTime: '15:00',
-            endTime: '15:30',
-          },
-          {
-            startTime: '15:30',
-            endTime: '16:00',
+            startTime: '21:30',
+            endTime: '22:00',
           },
         ],
       },
