@@ -6,6 +6,6 @@ export enum captchaQuries {
   fetchCaptcha = 'fetchCaptcha',
 }
 
-export function useCaptchaQuery(options?: UseQueryOptions<any>): UseQueryResult<string> {
-  return useQuery(captchaQuries.fetchCaptcha, restApi.fetchCaptcha, options);
+export function useCaptchaQuery(): UseQueryResult<string> {
+  return useQuery(captchaQuries.fetchCaptcha, restApi.fetchCaptcha);
 }

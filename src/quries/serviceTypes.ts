@@ -7,6 +7,6 @@ export enum serviceTypesQuries {
   fetchServiceTypes = 'fetchServiceTypes',
 }
 
-export function useServiceTypesQuries(options?: UseQueryOptions<any>): UseQueryResult<ServiceTypeDto[]> {
-  return useQuery(serviceTypesQuries.fetchServiceTypes, restApi.fetchServiceTypes, options);
+export function useServiceTypesQuries(): UseQueryResult<ServiceTypeDto[]> {
+  return useQuery(serviceTypesQuries.fetchServiceTypes, restApi.fetchServiceTypes);
 }
