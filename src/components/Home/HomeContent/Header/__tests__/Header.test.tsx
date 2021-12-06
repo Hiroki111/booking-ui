@@ -8,7 +8,7 @@ import {
   mockHomePageContextValue,
 } from '../../../../../testUtil/mockData/HomePageContext';
 import { ROUTES } from '../../../../../routes';
-import { createMockNonPreferenceStaff } from '../../../../../testUtil/mockData/staff';
+import { createMockNoPreferenceStaff } from '../../../../../testUtil/mockData/staff';
 
 describe('Header.tsx', () => {
   const defaultContextValue = createMockHomePageContextValue();
@@ -85,7 +85,7 @@ describe('Header.tsx', () => {
 
   it('should NOT show the staff name on the availability page if "No preference" was chosen', () => {
     const contextValue = createMockHomePageContextValue({
-      selectedStaff: createMockNonPreferenceStaff(),
+      selectedStaff: createMockNoPreferenceStaff(),
     });
     renderHeader([ROUTES.availability], contextValue);
     expect(screen.getByText('Select time')).toBeInTheDocument();

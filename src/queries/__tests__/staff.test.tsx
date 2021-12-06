@@ -1,7 +1,7 @@
 import { renderHook } from '@testing-library/react-hooks';
 import { QueryClientProvider, QueryClient } from 'react-query';
 import { createMockServiceDto } from '../../testUtil/mockData/service';
-import { createMockNonPreferenceStaff, createMockStaff } from '../../testUtil/mockData/staff';
+import { createMockNoPreferenceStaff, createMockStaff } from '../../testUtil/mockData/staff';
 import { useAllStaffQuery, useRegularStaffQuery } from '../staff';
 
 jest.mock('../../network/restApi', () => ({
@@ -27,7 +27,7 @@ describe('queries/staff', () => {
       const staffD = createMockStaff({ services: [] });
 
       restApi.fetchStaffList.mockImplementation(() => ({
-        noPreferenceStaff: createMockNonPreferenceStaff(),
+        noPreferenceStaff: createMockNoPreferenceStaff(),
         regularStaffList: [staffA, staffB, staffC, staffD],
       }));
 
@@ -47,14 +47,14 @@ describe('queries/staff', () => {
 
   describe('selectAllStaffWhoCanDoAllServices', () => {
     it('should get all the staff who can do all the services', async () => {
-      const nonPreferenceStaff = createMockNonPreferenceStaff();
+      const noPreferenceStaff = createMockNoPreferenceStaff();
       const staffA = createMockStaff({ services: [serviceA, serviceB, serviceC] });
       const staffB = createMockStaff({ services: [serviceA, serviceB] });
       const staffC = createMockStaff({ services: [serviceA] });
       const staffD = createMockStaff({ services: [] });
 
       restApi.fetchStaffList.mockImplementation(() => ({
-        noPreferenceStaff: createMockNonPreferenceStaff(),
+        noPreferenceStaff: createMockNoPreferenceStaff(),
         regularStaffList: [staffA, staffB, staffC, staffD],
       }));
 
@@ -62,14 +62,14 @@ describe('queries/staff', () => {
       await renderHookResult.waitFor(() => renderHookResult.result.current.isSuccess);
       expect(renderHookResult.result.current.data).toEqual([staffA]);
 
-      // nonPreferenceStaff is returned only if there are 2 or more regular staff
+      // noPreferenceStaff is returned only if there are 2 or more regular staff
       renderHookResult = renderHook(() => useAllStaffQuery([serviceA, serviceB]), { wrapper });
       await renderHookResult.waitFor(() => renderHookResult.result.current.isSuccess);
-      expect(renderHookResult.result.current.data).toEqual([nonPreferenceStaff, staffA, staffB]);
+      expect(renderHookResult.result.current.data).toEqual([noPreferenceStaff, staffA, staffB]);
 
       renderHookResult = renderHook(() => useAllStaffQuery([]), { wrapper });
       await renderHookResult.waitFor(() => renderHookResult.result.current.isSuccess);
-      expect(renderHookResult.result.current.data).toEqual([nonPreferenceStaff, staffA, staffB, staffC, staffD]);
+      expect(renderHookResult.result.current.data).toEqual([noPreferenceStaff, staffA, staffB, staffC, staffD]);
 
       renderHookResult = renderHook(() => useAllStaffQuery([serviceZ]), { wrapper });
       await renderHookResult.waitFor(() => renderHookResult.result.current.isSuccess);

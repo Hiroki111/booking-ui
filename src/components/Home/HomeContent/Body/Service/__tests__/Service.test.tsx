@@ -6,7 +6,7 @@ import { HomePageContext, HomePageContextInterface } from '../../../../../../con
 import { createMockHomePageContextValue } from '../../../../../../testUtil/mockData/HomePageContext';
 import { createMockServiceDto } from '../../../../../../testUtil/mockData/service';
 import { createMockServiceTypeDto } from '../../../../../../testUtil/mockData/serviceType';
-import { createMockNonPreferenceStaff, createMockStaff } from '../../../../../../testUtil/mockData/staff';
+import { createMockNoPreferenceStaff, createMockStaff } from '../../../../../../testUtil/mockData/staff';
 
 jest.mock('../../../../../../network/restApi', () => ({
   fetchServiceTypes: jest.fn(),
@@ -65,7 +65,7 @@ describe('Service.tsx', () => {
   it('should notify the user when the selection limit is reached', async () => {
     restApi.fetchServiceTypes.mockImplementation(() => mockServiceTypes);
     restApi.fetchStaffList.mockImplementation(() => ({
-      noPreferenceStaff: createMockNonPreferenceStaff(),
+      noPreferenceStaff: createMockNoPreferenceStaff(),
       regularStaffList: mockStaffList,
     }));
 

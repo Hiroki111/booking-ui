@@ -21,6 +21,6 @@ export function createMockStaff(params?: Partial<StaffDto>) {
   return { ...mockStaff, ...params };
 }
 
-export function createMockNonPreferenceStaff(params?: Partial<NoPreferenceStaff>) {
+export function createMockNoPreferenceStaff(params?: Partial<NoPreferenceStaff>) {
   return { ...mockNoPreferenceStaff, ...params };
 }

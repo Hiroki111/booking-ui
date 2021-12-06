@@ -5,7 +5,7 @@ import { MemoryRouter } from 'react-router-dom';
 import { HomePageContext } from '../../../../../../contexts/HomePageContext';
 import { createPartialTargetText } from '../../../../../../testUtil/helper';
 import { createMockHomePageContextValue } from '../../../../../../testUtil/mockData/HomePageContext';
-import { createMockStaff, createMockNonPreferenceStaff } from '../../../../../../testUtil/mockData/staff';
+import { createMockStaff, createMockNoPreferenceStaff } from '../../../../../../testUtil/mockData/staff';
 import { Staff } from '../Staff';
 
 jest.mock('../../../../../../network/restApi', () => ({
@@ -30,7 +30,7 @@ describe('Staff.tsx', () => {
 
   it('should show "No preference" if there are 2 or more staff available', async () => {
     restApi.fetchStaffList.mockImplementation(() => ({
-      noPreferenceStaff: createMockNonPreferenceStaff(),
+      noPreferenceStaff: createMockNoPreferenceStaff(),
       regularStaffList: [createMockStaff(), createMockStaff()],
     }));
     renderStaff();
@@ -41,7 +41,7 @@ describe('Staff.tsx', () => {
   it('should NOT show "No preference" if there is only 1 staff available', async () => {
     const mockStaff = createMockStaff({ name: 'John Smith' });
     restApi.fetchStaffList.mockImplementation(() => ({
-      noPreferenceStaff: createMockNonPreferenceStaff(),
+      noPreferenceStaff: createMockNoPreferenceStaff(),
       regularStaffList: [mockStaff],
     }));
     renderStaff();
