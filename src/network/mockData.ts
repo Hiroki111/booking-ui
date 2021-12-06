@@ -1,4 +1,4 @@
-import { StaffDto, NoPreferenceStaff, FetchStaffListResponseDto } from '../interfaces/staff';
+import { NoPreferenceStaff, FetchStaffListResponseDto } from '../interfaces/staff';
 
 export const mockServiceTypes = [
   {
