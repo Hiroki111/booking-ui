@@ -14,7 +14,6 @@ export interface NoPreferenceStaff extends Omit<StaffDto, 'availableDates' | 'se
   availableDates: string[];
 }
 
-//TODO: Made this available in backend too
 export interface FetchStaffListResponseDto {
   regularStaffList: StaffDto[];
   noPreferenceStaff: NoPreferenceStaff;
