@@ -9,8 +9,8 @@ import { ServerErrorAlert } from './ServerErrorAlert';
 import { useStyles } from './useStyles';
 import { Route as RouteObj, splitComponentRoutes, fullWidthComponentRoutes } from '../../../../routes';
 import { useIsSmallWindow } from '../../../../hooks/window';
-import { useServiceTypesQuries } from '../../../../quries/serviceTypes';
-import { useStaffQuery } from '../../../../quries/staff';
+import { useServiceTypesQuries } from '../../../../queries/serviceTypes';
+import { useStaffQuery } from '../../../../queries/staff';
 
 export function Body() {
   const classes = useStyles();

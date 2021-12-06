@@ -7,7 +7,7 @@ import { useStyles } from './useStyles';
 import { NO_PREFERENCE_STAFF_ID } from '../../../../../../staticData/staff';
 import { StaffDto } from '../../../../../../interfaces/staff';
 import { TimeTableCell } from './TimeTableCell';
-import { useRegularStaffQuery } from '../../../../../../quries/staff';
+import { useRegularStaffQuery } from '../../../../../../queries/staff';
 
 export function Calendar() {
   const classes = useStyles();

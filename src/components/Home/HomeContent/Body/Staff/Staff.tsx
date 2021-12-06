@@ -2,7 +2,7 @@ import { Paper, Typography } from '@material-ui/core';
 
 import { StaffPanel } from './StaffPanel';
 import { useHomePageContext } from '../../../../../contexts/HomePageContext';
-import { useAllStaffQuery } from '../../../../../quries/staff';
+import { useAllStaffQuery } from '../../../../../queries/staff';
 import { useStyles } from './useStyles';
 
 export function Staff() {

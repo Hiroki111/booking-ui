@@ -5,7 +5,7 @@ import Chip from '@material-ui/core/Chip';
 import Slide from '@material-ui/core/Slide';
 
 import { useHomePageContext } from '../../../../../contexts/HomePageContext';
-import { useRegularStaffQuery } from '../../../../../quries/staff';
+import { useRegularStaffQuery } from '../../../../../queries/staff';
 import { ROUTES } from '../../../../../routes';
 import { useStyles } from './useStyles';
 import { MAX_SERVICE_SELECTION_NUMBER } from '../../../../../staticData/service';

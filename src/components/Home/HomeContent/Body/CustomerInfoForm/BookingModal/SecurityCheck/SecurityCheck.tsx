@@ -1,7 +1,7 @@
 import { TextField } from '@material-ui/core';
 import { UseQueryOptions } from 'react-query';
 
-import { useCaptchaQuery } from '../../../../../../../quries/captcha';
+import { useCaptchaQuery } from '../../../../../../../queries/captcha';
 import { useStyles } from './useStyles';
 
 interface Props {

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Tabs, Tab, Chip } from '@material-ui/core';
 
 import { useHomePageContext } from '../../../../../contexts/HomePageContext';
-import { useServiceTypesQuries } from '../../../../../quries/serviceTypes';
+import { useServiceTypesQuries } from '../../../../../queries/serviceTypes';
 import { useStyles } from './useStyles';
 
 export function ServiceTabs() {
