@@ -10,24 +10,17 @@ export enum staffQuries {
 }
 
 export function useStaffQuery(): UseQueryResult<FetchStaffListResponseDto> {
-  return useQuery<FetchStaffListResponseDto, any, FetchStaffListResponseDto>(
-    staffQuries.fetchStaffList,
-    restApi.fetchStaffList,
-  );
+  return useQuery(staffQuries.fetchStaffList, restApi.fetchStaffList);
 }
 
 export function useRegularStaffQuery(services: ServiceDto[]): UseQueryResult<StaffDto[]> {
-  return useQuery<FetchStaffListResponseDto, any, StaffDto[]>(staffQuries.fetchStaffList, restApi.fetchStaffList, {
+  return useQuery(staffQuries.fetchStaffList, restApi.fetchStaffList, {
     select: (staffList: FetchStaffListResponseDto) => selectRegularStaffWhoCanDoAllServices(staffList, services),
   });
 }
 
 export function useAllStaffQuery(services: ServiceDto[]): UseQueryResult<(NoPreferenceStaff | StaffDto)[]> {
-  return useQuery<FetchStaffListResponseDto, any, (NoPreferenceStaff | StaffDto)[]>(
-    staffQuries.fetchStaffList,
-    restApi.fetchStaffList,
-    {
-      select: (staffList: FetchStaffListResponseDto) => selectAllStaffWhoCanDoAllServices(staffList, services),
-    },
-  );
+  return useQuery(staffQuries.fetchStaffList, restApi.fetchStaffList, {
+    select: (staffList: FetchStaffListResponseDto) => selectAllStaffWhoCanDoAllServices(staffList, services),
+  });
 }

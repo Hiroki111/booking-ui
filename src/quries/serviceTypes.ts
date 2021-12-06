@@ -1,4 +1,4 @@
-import { useQuery, UseQueryResult, UseQueryOptions } from 'react-query';
+import { useQuery, UseQueryResult } from 'react-query';
 
 import { ServiceTypeDto } from '../interfaces/serviceType';
 import restApi from '../network/restApi';

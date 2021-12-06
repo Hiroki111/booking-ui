@@ -1,4 +1,4 @@
-import { useQuery, UseQueryResult, UseQueryOptions } from 'react-query';
+import { useQuery, UseQueryResult } from 'react-query';
 
 import restApi from '../network/restApi';
 
