@@ -33,9 +33,8 @@
     }
   },
   "lint-staged": {
-    "**/*": [
-      "prettier --write --ignore-unknown",
-      "eslint ./src"
+    "src/**/*.{js,ts,tsx,json}": [
+      "prettier --write --ignore-unknown"
     ]
   },
   "scripts": {
