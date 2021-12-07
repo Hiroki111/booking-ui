@@ -8,7 +8,6 @@ describe('services/availableDate', () => {
     const serviceA = createMockServiceDto({ minutes: 30 });
     const serviceB = createMockServiceDto({ minutes: 10 });
     const serviceC = createMockServiceDto({ minutes: 61 });
-    const testEsLint = 1;
 
     const availableDateA = createMockAvailableDate({
       date: '2022-01-01',
