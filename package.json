@@ -34,8 +34,8 @@
   },
   "lint-staged": {
     "**/*": [
-      "yarn lint",
-      "yarn format"
+      "prettier --write --ignore-unknown",
+      "eslint ."
     ]
   },
   "scripts": {
