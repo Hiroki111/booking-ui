@@ -1,13 +1,14 @@
 import { createMockAvailableDate } from '../../testUtil/mockData/availableDate';
 import { createMockServiceDto } from '../../testUtil/mockData/service';
 import { createMockStaff } from '../../testUtil/mockData/staff';
-import { getMapDateToMaxAvailableDate } from '../availableDate';
+import { getMapDateToMaxAvailableDate, getMapDateToAvailableDate } from '../availableDate';
 
-describe('services/availableDate', () => {
+   describe('services/availableDate', () => {
   describe('getMapDateToMaxAvailableDate', () => {
     const serviceA = createMockServiceDto({ minutes: 30 });
     const serviceB = createMockServiceDto({ minutes: 10 });
     const serviceC = createMockServiceDto({ minutes: 61 });
+    const testEsLint = 1;
 
     const availableDateA = createMockAvailableDate({
       date: '2022-01-01',
