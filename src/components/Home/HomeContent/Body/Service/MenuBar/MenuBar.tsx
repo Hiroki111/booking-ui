@@ -7,7 +7,7 @@ import TabScrollButton from '@material-ui/core/TabScrollButton';
 import clsx from 'clsx';
 
 import { useHomePageContext } from '../../../../../../contexts/HomePageContext';
-import { useServiceTypesQuries } from '../../../../../../quries/serviceTypes';
+import { useServiceTypesQuries } from '../../../../../../queries/serviceTypes';
 import { useStyles } from './useStyles';
 
 export function MenuBar() {

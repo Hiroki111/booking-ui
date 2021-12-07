@@ -1,6 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-import { blue } from '@material-ui/core/colors';
-import { grey } from '@material-ui/core/colors';
+import { blue, green, grey } from '@material-ui/core/colors';
 
 import { hoverableOption } from '../../../../../../styles/sharedStyles';
 
@@ -39,6 +38,7 @@ export const useStyles = makeStyles((theme) => ({
     fontWeight: 700,
   },
   avatar: {
+    backgroundColor: green[500],
     width: '56px',
     height: '56px',
     marginRight: '20px',
@@ -47,7 +47,6 @@ export const useStyles = makeStyles((theme) => ({
     borderRadius: '50%',
   },
   initials: {
-    color: theme.palette.getContrastText(blue[500]),
     backgroundColor: blue[500],
   },
 }));

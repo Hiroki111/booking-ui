@@ -8,7 +8,7 @@ import Modal from '@material-ui/core/Modal';
 import { useHomePageContext } from '../../../../../../contexts/HomePageContext';
 import { calculateOrder } from '../../../../../../services/order';
 import { calculateExpectedEndTime } from '../../../../../../services/booking';
-import { useCreateAppointmentMutation } from '../../../../../../quries/appointment';
+import { useCreateAppointmentMutation } from '../../../../../../queries/appointment';
 import { ROUTES } from '../../../../../../routes';
 import { BookingSummary } from './BookingSummary';
 import { SecurityCheck } from './SecurityCheck';

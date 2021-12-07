@@ -1,4 +1,4 @@
-import { AvailableDate, StaffDto } from '../../interfaces/staff';
+import { AvailableDate, NoPreferenceStaff, StaffDto } from '../../interfaces/staff';
 import { ServiceDto } from '../../interfaces/service';
 import { AvailableTimeSlotDto } from '../../interfaces/availableTimeSlot';
 import { BookingStateActionType } from './types';
@@ -14,7 +14,7 @@ export const setServices = (services: ServiceDto[]): BookingStateAction => {
   };
 };
 
-export const setStaff = (staff: StaffDto): BookingStateAction => {
+export const setStaff = (staff: StaffDto | NoPreferenceStaff): BookingStateAction => {
   return {
     type: BookingStateActionType.SET_STAFF,
     payload: staff,

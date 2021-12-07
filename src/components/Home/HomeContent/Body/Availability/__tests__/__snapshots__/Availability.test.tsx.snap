@@ -1,0 +1,812 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Availability.tsx should render the calendar 1`] = `
+<div
+  className="MuiPaper-root makeStyles-schedulerContainer-53 MuiPaper-elevation2 MuiPaper-rounded"
+>
+  <div
+    className="Root-container-58"
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular Toolbar-toolbar-59 makeStyles-toolbarRoot-54 MuiToolbar-gutters"
+    >
+      <div
+        className="RootBase-root-60"
+      >
+        <button
+          className="MuiButtonBase-root MuiIconButton-root NavigationButton-button-62 makeStyles-hideNavButton-61"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          className="MuiButtonBase-root MuiIconButton-root NavigationButton-button-62"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text OpenButton-textButton-63 makeStyles-monthLabel-55"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            March 2022
+          </span>
+        </button>
+        <button
+          className="MuiButtonBase-root MuiIconButton-root OpenButton-iconButton-64 makeStyles-monthLabel-55"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        className="FlexibleSpace-flexibleSpace-65"
+      />
+    </div>
+    <div
+      className="makeStyles-container-66"
+      onScroll={[Function]}
+    >
+      <div>
+        <div
+          className="makeStyles-stickyElement-67 makeStyles-header-68 makeStyles-flexRow-75"
+        >
+          <div
+            className="makeStyles-background-78 makeStyles-inlineFlex-77 makeStyles-ordinaryHeaderBorder-72"
+          >
+            <div>
+              <table
+                className="MuiTable-root makeStyles-table-80 makeStyles-table-81 makeStyles-dayScaleLayout-57"
+                role={null}
+              >
+                <tbody
+                  className="MuiTableBody-root"
+                  role={null}
+                >
+                  <tr
+                    className="MuiTableRow-root"
+                    role={null}
+                  >
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
+                    >
+                      <div
+                        className="Cell-dayOfWeek-83"
+                      >
+                        Sun
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
+                    >
+                      <div
+                        className="Cell-dayOfWeek-83"
+                      >
+                        Mon
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
+                    >
+                      <div
+                        className="Cell-dayOfWeek-83"
+                      >
+                        Tue
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
+                    >
+                      <div
+                        className="Cell-dayOfWeek-83"
+                      >
+                        Wed
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
+                    >
+                      <div
+                        className="Cell-dayOfWeek-83"
+                      >
+                        Thu
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
+                    >
+                      <div
+                        className="Cell-dayOfWeek-83"
+                      >
+                        Fri
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-82"
+                    >
+                      <div
+                        className="Cell-dayOfWeek-83"
+                      >
+                        Sat
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div
+          className="makeStyles-flexRow-75"
+        >
+          <div
+            className="makeStyles-inlineFlex-77"
+          >
+            <div
+              className="makeStyles-relativeContainer-76"
+            >
+              <table
+                className="MuiTable-root makeStyles-table-80 makeStyles-table-85 makeStyles-timeTableLayout-56"
+                role={null}
+              >
+                <tbody
+                  className="MuiTableBody-root"
+                  role={null}
+                >
+                  <tr
+                    className="MuiTableRow-root"
+                    role={null}
+                  >
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91 Cell-otherMonth-93"
+                      >
+                        27
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91 Cell-otherMonth-93"
+                      >
+                        28
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-availableDay-87"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        Mar 1
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        2
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        3
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        4
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        5
+                      </div>
+                    </td>
+                  </tr>
+                  <tr
+                    className="MuiTableRow-root"
+                    role={null}
+                  >
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        6
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        7
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        8
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        9
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        10
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        11
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        12
+                      </div>
+                    </td>
+                  </tr>
+                  <tr
+                    className="MuiTableRow-root"
+                    role={null}
+                  >
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        13
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        14
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-availableDay-87"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        15
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        16
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        17
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        18
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        19
+                      </div>
+                    </td>
+                  </tr>
+                  <tr
+                    className="MuiTableRow-root"
+                    role={null}
+                  >
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        20
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        21
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        22
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        23
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        24
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        25
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        26
+                      </div>
+                    </td>
+                  </tr>
+                  <tr
+                    className="MuiTableRow-root"
+                    role={null}
+                  >
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        27
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        28
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        29
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-availableDay-87"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        30
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91"
+                      >
+                        31
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91 Cell-otherMonth-93"
+                      >
+                        Apr 1
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91 Cell-otherMonth-93"
+                      >
+                        2
+                      </div>
+                    </td>
+                  </tr>
+                  <tr
+                    className="MuiTableRow-root"
+                    role={null}
+                  >
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91 Cell-otherMonth-93"
+                      >
+                        3
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91 Cell-otherMonth-93"
+                      >
+                        4
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91 Cell-otherMonth-93"
+                      >
+                        5
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91 Cell-otherMonth-93"
+                      >
+                        6
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91 Cell-otherMonth-93"
+                      >
+                        7
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91 Cell-otherMonth-93"
+                      >
+                        8
+                      </div>
+                    </td>
+                    <td
+                      aria-sort={null}
+                      className="MuiTableCell-root MuiTableCell-body Cell-cell-90 makeStyles-dayCell-86 makeStyles-unavailableDay-88"
+                      onClick={[Function]}
+                      tabIndex={0}
+                    >
+                      <div
+                        className="Cell-text-91 Cell-otherMonth-93"
+                      >
+                        9
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div
+                className="AppointmentsContainer-container-97"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

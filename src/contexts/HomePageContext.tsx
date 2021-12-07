@@ -2,7 +2,7 @@ import React, { createContext, Dispatch, useReducer, useState, useEffect } from 
 
 import { Customer } from './interfaces/customer';
 import { ServiceDto } from '../interfaces/service';
-import { AvailableDate, StaffDto } from '../interfaces/staff';
+import { AvailableDate, NoPreferenceStaff, StaffDto } from '../interfaces/staff';
 import { AvailableTimeSlotDto } from '../interfaces/availableTimeSlot';
 import { useSessionStorage } from '../services/sessionStorage';
 import { BookingState, bookingStateReducer, initialBookingState } from '../reducers/bookingState';
@@ -20,7 +20,7 @@ export interface BookingCompletionState {
 export interface HomePageContextInterface {
   serviceTypeRefs: React.RefObject<any>[];
   selectedServices: ServiceDto[];
-  selectedStaff: StaffDto;
+  selectedStaff: StaffDto | NoPreferenceStaff;
   selectedDate: AvailableDate;
   selectedTimeSlot: AvailableTimeSlotDto;
   customer: Customer;
@@ -28,7 +28,7 @@ export interface HomePageContextInterface {
   bookingCompletionState: BookingCompletionState;
   setServiceTypeRefs: Dispatch<React.SetStateAction<React.RefObject<any>[]>>;
   setSelectedServices: (value: ServiceDto[]) => void;
-  setSelectedStaff: (value: StaffDto) => void;
+  setSelectedStaff: (value: StaffDto | NoPreferenceStaff) => void;
   setSelectedDate: (value: AvailableDate) => void;
   setSelectedTimeSlot: (value: AvailableTimeSlotDto) => void;
   setCustomer: (value: Customer) => void;
@@ -88,7 +88,7 @@ export function HomePageContextProvider({ children }: Props) {
     bookingCompletionState,
     setServiceTypeRefs,
     setSelectedServices: (services: ServiceDto[]) => dispatchBookingState(setServices(services)),
-    setSelectedStaff: (staff: StaffDto) => dispatchBookingState(setStaff(staff)),
+    setSelectedStaff: (staff: StaffDto | NoPreferenceStaff) => dispatchBookingState(setStaff(staff)),
     setSelectedDate: (date: AvailableDate) => dispatchBookingState(setDate(date)),
     setSelectedTimeSlot: (timeslot: AvailableTimeSlotDto) => dispatchBookingState(setTimeslot(timeslot)),
     setCustomer,

@@ -10,6 +10,15 @@ export interface StaffDto {
   availableDates: AvailableDate[];
 }
 
+export interface NoPreferenceStaff extends Omit<StaffDto, 'availableDates' | 'services'> {
+  availableDates: string[];
+}
+
+export interface FetchStaffListResponseDto {
+  regularStaffList: StaffDto[];
+  noPreferenceStaff: NoPreferenceStaff;
+}
+
 export interface AvailableDate {
   id: number;
   date: string;

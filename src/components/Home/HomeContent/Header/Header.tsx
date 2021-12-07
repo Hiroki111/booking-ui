@@ -7,9 +7,10 @@ import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import { useHomePageContext } from '../../../../contexts/HomePageContext';
 import { ROUTES } from '../../../../routes';
 import { useStyles } from './useStyles';
-import { StaffDto } from '../../../../interfaces/staff';
+import { NoPreferenceStaff, StaffDto } from '../../../../interfaces/staff';
 import { useIsSmallWindow } from '../../../../hooks/window';
 import { ServiceTabs } from './ServiceTabs';
+import { NO_PREFERENCE_STAFF_ID } from '../../../../staticData/staff';
 
 export function Header() {
   const classes = useStyles();
@@ -35,19 +36,27 @@ export function Header() {
     }
   }
 
-  function displayHeaderText(staff: StaffDto) {
+  function displayHeaderText(staff: StaffDto | NoPreferenceStaff) {
     switch (location.pathname) {
       case ROUTES.service:
         return 'Select services';
       case ROUTES.staff:
         return 'Select staff';
       case ROUTES.availability:
-        return `Select time with ${staff.name}`;
+        return getHeaderTextForAvailability(staff);
       case ROUTES.customerInfoForm:
         return 'Your contact information';
       default:
         return '';
     }
+  }
+
+  function getHeaderTextForAvailability(staff: StaffDto | NoPreferenceStaff) {
+    if (staff.id === NO_PREFERENCE_STAFF_ID) {
+      return 'Select time';
+    }
+
+    return `Select time with ${staff.name}`;
   }
 
   function displayReturnArrow() {
@@ -93,7 +102,7 @@ export function Header() {
           </Typography>
         )}
         <Typography component="h2" variant="h6" className={classes.pageTitle} noWrap>
-          {displayHeaderText(selectedStaff)}
+          {displayHeaderText(selectedStaff as StaffDto | NoPreferenceStaff)}
         </Typography>
       </Toolbar>
       {isSmallWindow && isServicePage() && <ServiceTabs />}

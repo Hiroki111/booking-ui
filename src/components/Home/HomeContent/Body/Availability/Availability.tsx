@@ -3,6 +3,7 @@ import { Redirect, useLocation } from 'react-router-dom';
 import Paper from '@material-ui/core/Paper';
 import { ViewState } from '@devexpress/dx-react-scheduler';
 import { Scheduler, Toolbar } from '@devexpress/dx-react-scheduler-material-ui';
+import dayjs from 'dayjs';
 
 import { useHomePageContext } from '../../../../../contexts/HomePageContext';
 import { AvailableTime } from './AvailableTime';
@@ -17,6 +18,7 @@ export function Availability() {
   const { selectedDate, bookingCompletionState } = useHomePageContext();
   const location = useLocation();
   const pathToSkippedPage = getPathToSkippedPage(location.pathname, bookingCompletionState);
+  const initialDate = selectedDate?.date || dayjs().format('YYYY-MM-DD');
 
   useEffect(() => {
     if (selectedDate && refToAvailableTime.current) {
@@ -36,7 +38,7 @@ export function Availability() {
     <>
       <Paper elevation={2} className={classes.schedulerContainer}>
         <Scheduler>
-          <ViewState />
+          <ViewState defaultCurrentDate={initialDate} />
           <Toolbar rootComponent={ToolBarRootComponent} />
           <NavigationBar />
           <Calendar />

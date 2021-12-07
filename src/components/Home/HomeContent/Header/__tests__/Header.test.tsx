@@ -8,6 +8,7 @@ import {
   mockHomePageContextValue,
 } from '../../../../../testUtil/mockData/HomePageContext';
 import { ROUTES } from '../../../../../routes';
+import { createMockNoPreferenceStaff } from '../../../../../testUtil/mockData/staff';
 
 describe('Header.tsx', () => {
   const defaultContextValue = createMockHomePageContextValue();
@@ -80,5 +81,13 @@ describe('Header.tsx', () => {
   it('should NOT show the step number for the booking confirmation page', () => {
     renderHeader([ROUTES.bookingConfirmation]);
     expect(screen.queryByTestId('step')).toBeNull();
+  });
+
+  it('should NOT show the staff name on the availability page if "No preference" was chosen', () => {
+    const contextValue = createMockHomePageContextValue({
+      selectedStaff: createMockNoPreferenceStaff(),
+    });
+    renderHeader([ROUTES.availability], contextValue);
+    expect(screen.getByText('Select time')).toBeInTheDocument();
   });
 });
