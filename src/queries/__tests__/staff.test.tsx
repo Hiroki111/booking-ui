@@ -20,7 +20,7 @@ describe('queries/staff', () => {
   }
 
   describe('useRegularStaffQuery', () => {
-    it('should get regular staff who can do all the services', async () => {
+    it('should get all the regular staff who can do all the selected services', async () => {
       const staffA = createMockStaff({ services: [serviceA, serviceB, serviceC] });
       const staffB = createMockStaff({ services: [serviceA, serviceB] });
       const staffC = createMockStaff({ services: [serviceA] });
@@ -46,7 +46,7 @@ describe('queries/staff', () => {
   });
 
   describe('selectAllStaffWhoCanDoAllServices', () => {
-    it('should get all the staff who can do all the services', async () => {
+    it('should get all the staff who can do all the selected services', async () => {
       const noPreferenceStaff = createMockNoPreferenceStaff();
       const staffA = createMockStaff({ services: [serviceA, serviceB, serviceC] });
       const staffB = createMockStaff({ services: [serviceA, serviceB] });
