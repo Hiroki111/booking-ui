@@ -1,14 +1,64 @@
 import { createMockAvailableDate } from '../../testUtil/mockData/availableDate';
 import { createMockServiceDto } from '../../testUtil/mockData/service';
 import { createMockStaff } from '../../testUtil/mockData/staff';
-import { getMapDateToMaxAvailableDate } from '../availableDate';
+import { getMapDateToAvailableDate, getMapDateToMaxAvailableDate } from '../availableDate';
 
 describe('services/availableDate', () => {
-  describe('getMapDateToMaxAvailableDate', () => {
-    const serviceA = createMockServiceDto({ minutes: 30 });
-    const serviceB = createMockServiceDto({ minutes: 10 });
-    const serviceC = createMockServiceDto({ minutes: 61 });
+  const service30Min = createMockServiceDto({ minutes: 30 });
+  const service10Min = createMockServiceDto({ minutes: 10 });
+  const service61Min = createMockServiceDto({ minutes: 61 });
 
+  describe('getMapDateToAvailableDate', () => {
+    const availableDateA = createMockAvailableDate({
+      date: '2022-01-01',
+      availableTimeSlots: [
+        { startTime: '08:00', endTime: '08:30' },
+        // "08:30" to "09:00" is absent
+        { startTime: '09:00', endTime: '09:30' },
+        { startTime: '09:30', endTime: '10:00' },
+      ],
+    });
+    const staff = createMockStaff({
+      services: [service30Min, service10Min, service61Min],
+      availableDates: [availableDateA],
+    });
+
+    it('should get all the available timeslots that have at least 30 minutes', () => {
+      const map = getMapDateToAvailableDate(staff, [service30Min]);
+
+      expect(map).toEqual({
+        '2022-01-01': {
+          id: availableDateA.id,
+          date: '2022-01-01',
+          availableTimeSlots: [
+            { startTime: '08:00', endTime: '08:30' },
+            { startTime: '09:00', endTime: '09:30' },
+            { startTime: '09:30', endTime: '10:00' },
+          ],
+        },
+      });
+    });
+
+    it('should get all the available timeslots that have at least 40 minutes', () => {
+      const map = getMapDateToAvailableDate(staff, [service30Min, service10Min]);
+
+      expect(map).toEqual({
+        '2022-01-01': {
+          id: availableDateA.id,
+          date: '2022-01-01',
+          availableTimeSlots: [{ startTime: '09:00', endTime: '09:30' }],
+        },
+      });
+    });
+
+    it('should return an empty object if the selected staff does not have available timeslots for more than 60 minutes', () => {
+      const map = getMapDateToAvailableDate(staff, [service61Min]);
+
+      expect(map).toEqual({});
+    });
+  });
+
+  describe('getMapDateToMaxAvailableDate', () => {
     const availableDateA = createMockAvailableDate({
       date: '2022-01-01',
       availableTimeSlots: [
@@ -32,16 +82,16 @@ describe('services/availableDate', () => {
     });
 
     const staffA = createMockStaff({
-      services: [serviceA, serviceB, serviceC],
+      services: [service30Min, service10Min, service61Min],
       availableDates: [availableDateA],
     });
     const staffB = createMockStaff({
-      services: [serviceA, serviceB, serviceC],
+      services: [service30Min, service10Min, service61Min],
       availableDates: [availableDateB, availableDateC],
     });
 
     it('should get all the unique available timeslots in the ascending order that have at least 30 minutes', () => {
-      const map = getMapDateToMaxAvailableDate([serviceA], [staffA, staffB]);
+      const map = getMapDateToMaxAvailableDate([service30Min], [staffA, staffB]);
 
       expect(map).toEqual({
         '2022-01-01': {
@@ -65,7 +115,7 @@ describe('services/availableDate', () => {
     });
 
     it('should get all the unique available timeslots in the ascending order that have at least 40 minutes', () => {
-      const map = getMapDateToMaxAvailableDate([serviceA, serviceB], [staffA, staffB]);
+      const map = getMapDateToMaxAvailableDate([service30Min, service10Min], [staffA, staffB]);
 
       expect(map).toEqual({
         '2022-01-01': {
@@ -80,7 +130,7 @@ describe('services/availableDate', () => {
     });
 
     it('should return an empty object if the selected staff are not availble for the selected services', () => {
-      const map = getMapDateToMaxAvailableDate([serviceC], [staffA, staffB]);
+      const map = getMapDateToMaxAvailableDate([service61Min], [staffA, staffB]);
 
       expect(map).toEqual({});
     });
