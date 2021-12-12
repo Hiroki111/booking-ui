@@ -1,4 +1,5 @@
 import { NoPreferenceStaff, FetchStaffListResponseDto } from '../interfaces/staff';
+import { NO_PREFERENCE_STAFF_ID } from '../staticData/staff';
 
 export const mockServiceTypes = [
   {
@@ -17105,7 +17106,7 @@ const allAvailableDates = mockRegularStaffList
   .map((availableDate) => availableDate.date);
 
 const mockNoPreferenceStaff = {
-  id: -1,
+  id: NO_PREFERENCE_STAFF_ID,
   name: 'No preference',
   title: 'Maximum availability',
   availableDates: Array.from(new Set(allAvailableDates)),

@@ -2,6 +2,7 @@ import { ServiceDto } from '../interfaces/service';
 import { StaffDto } from '../interfaces/staff';
 import { MapDateToAvailableDate } from '../interfaces/availableDate';
 import { filterTimeslotsWithServices } from './timeslot';
+import { MAX_AVAILABILITY_DATE_ID } from '../staticData/availableDate';
 
 export function getMapDateToAvailableDate(selectedStaff: StaffDto, selectedServices: ServiceDto[]) {
   if (!selectedStaff?.availableDates) {
@@ -48,7 +49,7 @@ export function getMapDateToMaxAvailableDate(selectedServices: ServiceDto[], sta
       ...mapDateToAvailableDate,
       [date]: {
         ...availableDate,
-        id: -1,
+        id: MAX_AVAILABILITY_DATE_ID,
         availableTimeSlots: existingTimeslots.concat(undiscoveredTimeslots),
       },
     };
