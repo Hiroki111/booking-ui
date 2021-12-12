@@ -8,10 +8,12 @@ export function getMapDateToAvailableDate(selectedStaff: StaffDto, selectedServi
     return {};
   }
 
-  const availableDates = selectedStaff.availableDates.filter((availableDate) => {
-    const availableTimeSlots = filterTimeslotsWithServices(availableDate?.availableTimeSlots || [], selectedServices);
-    return availableTimeSlots.length > 0;
-  });
+  const availableDates = selectedStaff.availableDates
+    .map((availableDate) => ({
+      ...availableDate,
+      availableTimeSlots: filterTimeslotsWithServices(availableDate?.availableTimeSlots || [], selectedServices),
+    }))
+    .filter((availableDate) => availableDate.availableTimeSlots.length > 0);
 
   return availableDates.reduce(
     (map, availableDate) => ({ ...map, [availableDate.date]: availableDate }),

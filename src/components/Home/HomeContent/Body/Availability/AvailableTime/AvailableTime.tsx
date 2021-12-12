@@ -7,20 +7,18 @@ import { useStyles } from './useStyles';
 import { useHomePageContext } from '../../../../../../contexts/HomePageContext';
 import { AvailableTimeSlotDto } from '../../../../../../interfaces/availableTimeSlot';
 import { ROUTES } from '../../../../../../routes';
-import { filterTimeslotsWithServices } from '../../../../../../services/timeslot';
 
 function AvailableTime(_props: any, ref: ForwardedRef<HTMLDivElement>) {
   const history = useHistory();
   const classes = useStyles();
-  const { selectedDate, setSelectedTimeSlot, selectedServices } = useHomePageContext();
-  const availableTimeSlots = filterTimeslotsWithServices(selectedDate?.availableTimeSlots || [], selectedServices);
+  const { selectedDate, setSelectedTimeSlot } = useHomePageContext();
 
   function handleClickTimeSlot(availableTimeSlot: AvailableTimeSlotDto) {
     setSelectedTimeSlot(availableTimeSlot);
     history.push(ROUTES.customerInfoForm);
   }
 
-  if (!availableTimeSlots.length) return null;
+  if (!selectedDate?.availableTimeSlots?.length) return null;
 
   return (
     <Paper className={classes.root}>
@@ -28,7 +26,7 @@ function AvailableTime(_props: any, ref: ForwardedRef<HTMLDivElement>) {
       <Paper className={classes.timeSlotHeader} elevation={2} square>
         <p>When would you like to vist us on {dayjs(selectedDate.date).format('DD/MM/YYYY')} ?</p>
       </Paper>
-      {availableTimeSlots.map((availableTimeSlot, i) => (
+      {selectedDate.availableTimeSlots.map((availableTimeSlot, i) => (
         <Paper
           key={i}
           className={classes.timeSlot}
