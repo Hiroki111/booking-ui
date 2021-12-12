@@ -39,7 +39,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
-    "format": "prettier --write --ignore-unknown ."
+    "format": "prettier --write --ignore-unknown .",
+    "ci": "rm -rf node_modules && yarn install --frozen-lockfile"
   },
   "eslintConfig": {
     "extends": [
