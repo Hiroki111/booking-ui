@@ -4,7 +4,7 @@ import MuiAlert, { Color } from '@material-ui/lab/Alert';
 
 import { MenuBar } from './MenuBar';
 import { useHomePageContext } from '../../../../../contexts/HomePageContext';
-import { useServiceTypesQuries } from '../../../../../queries/serviceTypes';
+import { useServiceTypesQuery } from '../../../../../queries/serviceTypes';
 import { useRegularStaffQuery } from '../../../../../queries/staff';
 import { MAX_SERVICE_SELECTION_NUMBER } from '../../../../../staticData/service';
 import { useIsSmallWindow } from '../../../../../hooks/window';
@@ -21,7 +21,7 @@ export function Service() {
   const [alertType, setAlertType] = useState<Color | undefined>(undefined);
   const { serviceTypeRefs, selectedServices, setServiceTypeRefs } = useHomePageContext();
   const isSmallWindow = useIsSmallWindow();
-  const serviceTypesQuery = useServiceTypesQuries();
+  const serviceTypesQuery = useServiceTypesQuery();
   const availableStaffQuery = useRegularStaffQuery(selectedServices);
 
   const serviceTypes = serviceTypesQuery.data || [];

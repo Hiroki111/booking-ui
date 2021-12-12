@@ -2,13 +2,13 @@ import { useState } from 'react';
 import { Tabs, Tab, Chip } from '@material-ui/core';
 
 import { useHomePageContext } from '../../../../../contexts/HomePageContext';
-import { useServiceTypesQuries } from '../../../../../queries/serviceTypes';
+import { useServiceTypesQuery } from '../../../../../queries/serviceTypes';
 import { useStyles } from './useStyles';
 
 export function ServiceTabs() {
   const classes = useStyles();
   const [tabIndex, setTabIndex] = useState(0);
-  const fetchServiceTypesQuery = useServiceTypesQuries();
+  const fetchServiceTypesQuery = useServiceTypesQuery();
   const { serviceTypeRefs } = useHomePageContext();
   const serviceTypes = fetchServiceTypesQuery?.data || [];
 

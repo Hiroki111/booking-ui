@@ -9,7 +9,7 @@ import { ServerErrorAlert } from './ServerErrorAlert';
 import { useStyles } from './useStyles';
 import { Route as RouteObj, splitComponentRoutes, fullWidthComponentRoutes } from '../../../../routes';
 import { useIsSmallWindow } from '../../../../hooks/window';
-import { useServiceTypesQuries } from '../../../../queries/serviceTypes';
+import { useServiceTypesQuery } from '../../../../queries/serviceTypes';
 import { useStaffQuery } from '../../../../queries/staff';
 
 export function Body() {
@@ -17,7 +17,7 @@ export function Body() {
   const isSmallWindow = useIsSmallWindow();
   const location = useLocation();
   const isShowingSplitComponent = splitComponentRoutes.some((route) => route.path === location.pathname);
-  const fetchServiceTypesQuery = useServiceTypesQuries();
+  const fetchServiceTypesQuery = useServiceTypesQuery();
   const fetchStaffListQuery = useStaffQuery();
 
   function renderRoutes(routes: RouteObj[]) {

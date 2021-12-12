@@ -7,14 +7,14 @@ import TabScrollButton from '@material-ui/core/TabScrollButton';
 import clsx from 'clsx';
 
 import { useHomePageContext } from '../../../../../../contexts/HomePageContext';
-import { useServiceTypesQuries } from '../../../../../../queries/serviceTypes';
+import { useServiceTypesQuery } from '../../../../../../queries/serviceTypes';
 import { useStyles } from './useStyles';
 
 export function MenuBar() {
   const classes = useStyles();
   const [selectedMenuIndex, setSelectedMenuIndex] = useState(0);
   const { serviceTypeRefs } = useHomePageContext();
-  const fetchServiceTypesQuery = useServiceTypesQuries();
+  const fetchServiceTypesQuery = useServiceTypesQuery();
   const serviceTypes = fetchServiceTypesQuery?.data || [];
 
   function a11yProps(index: any) {
